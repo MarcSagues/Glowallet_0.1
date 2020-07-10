@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	
+	background-image: url('../IMG_FE/glowalet_1_ciclista.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}

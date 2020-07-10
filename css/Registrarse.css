@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+body {
+	
+	background:url(../IMG_FE/registro.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	
+}
+	
+
+	
