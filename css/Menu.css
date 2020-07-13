@@ -20,9 +20,17 @@ ul {
 	list-style-type: none;
 }
 
+
 .ad {
 
 	position: fixed;
 	top: 5px;
 	right: 30px;
+}
+
+hr {
+  height: 10px;
+  width: 5%;
+  background-color: black;
+
 }
