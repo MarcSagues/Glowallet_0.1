@@ -1,14 +1,18 @@
 a {
 
 	font-size: 60px;
-	color: #0AC2E7;
+	color: #a8a9ad;
 	text-decoration: none;
+	font-weight: bold;
+	font-family: "Segoe UI";
 
 }
 
 a:hover {
 
-	color:#40C5DF;
+	color:#000000;
+	font-family: "Segoe UI";
+	font-weight: bold;
 }
 
 ul {
@@ -16,9 +20,17 @@ ul {
 	list-style-type: none;
 }
 
+
 .ad {
 
 	position: fixed;
 	top: 5px;
 	right: 30px;
+}
+
+hr {
+  height: 10px;
+  width: 5%;
+  background-color: black;
+
 }
