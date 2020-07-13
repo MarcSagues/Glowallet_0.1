@@ -1,10 +1,14 @@
 a {
 
+
+	display: block;
 	font-size: 60px;
 	color: #a8a9ad;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: "Segoe UI";
+	margin-left: 240px;
+
 
 }
 
@@ -21,16 +25,69 @@ ul {
 }
 
 
-.ad {
 
-	position: fixed;
-	top: 5px;
-	right: 30px;
+
+#opcion1{
+
+	margin-top: 180px;
+	visibility: visible;
 }
 
+#opcion1:hover + #barra1 {
+
+	visibility: visible;
+}
+#barra1 {
+
+	visibility: hidden;
+	background-color: #f80000;
+	
+
+}
+
+#opcion2{
+
+	visibility: visible;
+}
+
+#opcion2:hover + #barra2 {
+
+	visibility: visible;
+}
+#barra2 {
+
+	visibility: hidden;
+	background-color: #f80000;
+	
+}
+
+
+
+#opcion3{
+
+	visibility: visible;
+}
+
+#opcion3:hover + #barra3 {
+
+	visibility: visible;
+}
+#barra3 {
+	
+	visibility: hidden;
+	background-color: #f80000;
+	
+
+}
+
+
 hr {
-  height: 10px;
-  width: 5%;
-  background-color: black;
+	margin: auto;
+	margin-top: 0px;
+	margin-left: 0px ;
+ 	height: 16px;
+  	width: 5%;
+  	margin-left: 240px;
+  
 
 }
