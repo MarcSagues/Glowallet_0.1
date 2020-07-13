@@ -1,0 +1,33 @@
+body {
+	
+	background-image: url('../IMG_FE/glowalet_1_ciclista.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+a {
+
+	font-size: 20px;
+	color: #0AC2E7;
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	color:#40C5DF;
+}
+
+ul {
+
+	list-style-type: none;
+}
+
+.ad {
+
+	position: fixed;
+	top: 5px;
+	right: 30px;
+}
