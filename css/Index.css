@@ -78,11 +78,6 @@ ul {
 	font-weight: bold;
 }
 
-.scroll_line{
-	height: 3px;
-	background-color: black;
-}
-
 @font-face{
 	font-family: Titulos;
 	src: url("../fonts/dunkin/Dunkin Sans.ttf");
