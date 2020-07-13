@@ -12,6 +12,7 @@ a {
 	font-size: 20px;
 	color: #0AC2E7;
 	text-decoration: none;
+	font-family: "Segoe UI";
 
 }
 
@@ -30,4 +31,27 @@ ul {
 	position: fixed;
 	top: 5px;
 	right: 30px;
+}
+
+.circulo {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: right;
+  margin: auto;
+ 
+  padding:2%;
+}
+
+.circulo > #circulo {
+	font-family: "Segoe UI";
+	color: white;
+	font-size: 2px;
+	font-weight: bold;
+
 }
