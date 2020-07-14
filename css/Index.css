@@ -83,24 +83,28 @@ h2{
 
 #registrarse{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	float: left;
-	margin-right: 20px; 
-}
-
-#entrar{
-	display: flex;
+	position: fixed;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	float: right;
+	right: 340px;
+}
+
+#entrar{
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: right;
+	right: 200px;
 
 }
 
 
 .circulo {
+	position: fixed;
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
@@ -110,9 +114,8 @@ h2{
 	align-items: center;
 	text-align: center;
 	float: right;
-  	margin: auto;
- 	margin-top: 40px;
- 	margin-right: 35px; 
+  	top: 50px;
+  	right: 40px;
   	padding:2%;
   	/*LETRA*/ 
 	color: #0AC2E7;
@@ -125,13 +128,14 @@ h2{
 	height: 150px;
 	border-radius: 50%;
 	background: white;
+	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	float: left;
   	margin: auto;
- 	margin-top: -40px;
+ 	margin-top: 560px;
  	margin-left: -100px; 
   	padding:2%;
 }
@@ -153,7 +157,7 @@ h2{
 	width: 1px;
 	height: 1px;
 	float: right;
-	top: 140px;
+	top: 147px;
 	right: 53px;
 	padding: 2%;
 }
@@ -181,11 +185,12 @@ h2{
 	width: 370px;
 	height: 10px;
 	display: flex;
-	justify-content: center;
+	position: fixed;
 	align-items: center;
 	text-align: center;
-  	margin: auto;
- 	margin-top: 580px;
+  	top: 680px;
+  	right: 500px;
+  	vertical-align: middle;
  	border-radius: 7px;
  	padding:1%;
 }
