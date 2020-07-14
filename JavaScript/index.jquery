@@ -1,0 +1,10 @@
+var position = $(window).scrollTop(); 
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if(scroll > position) {
+            console.log('scroll abajo');
+    } else {
+        console.log('scroll arriba');
+    }
+    position = scroll;
+});

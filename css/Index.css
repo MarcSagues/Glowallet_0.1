@@ -4,6 +4,10 @@
 	font-weight: bold;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
 	
@@ -35,7 +39,7 @@ ul {
 }
 
 h1{
-	display: flex;
+
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -47,10 +51,6 @@ h1{
 	font-weight: normal;
 	-webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-	float: right;
-    margin: auto;
- 	margin-top: 147px;
- 	margin-right: -88px;
 
 }
 
@@ -120,25 +120,41 @@ h2{
 	font-weight: bold;
 }
 
+#circulo_blanco {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: left;
+  	margin: auto;
+ 	margin-top: -40px;
+ 	margin-left: -100px; 
+  	padding:2%;
+}
+
 
 
 .instagram{
+	position: fixed;
 	width: 1px;
 	height: 1px;
 	float: right;
-	margin: auto;
-	margin-top: 42px;
-	margin-right: -59px; 
+	top: 180px;
+	right: 53px;
 	padding: 2%;
 }
 
 .facebook{
+	position: fixed;
 	width: 1px;
 	height: 1px;
 	float: right;
-	margin: auto;
-	margin-top: 10px;
-	margin-right: 48px; 
+	top: 140px;
+	right: 53px;
 	padding: 2%;
 }
 
@@ -203,4 +219,12 @@ h2{
 
 	width: 350px;
 
+}
+
+#siguenos {
+	position: fixed;
+	float: right;
+	top: 250px;
+	right: -5px;
+	padding: 2%;
 }
