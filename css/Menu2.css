@@ -108,3 +108,23 @@ hr {
 }
 
 
+.circulo {
+	position: fixed;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: right;
+  	margin: auto;
+ 	top: 32px;
+ 	right: 34px; 
+  	padding:2%;
+  	/*LETRA*/ 
+	color: #f4f4f4;
+	font-size: 13px;
+	font-weight: bold;
+}
