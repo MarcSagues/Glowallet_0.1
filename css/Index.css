@@ -51,7 +51,7 @@ h1{
 }
 
 h2{
-	font-size: 12px;
+	font-size: 10px;
 	color: black;
 	text-decoration: none;
 	font-family: 'Titulos';
@@ -77,11 +77,13 @@ h2{
 }
 
 #registrarse{
+	display: inline-block;
 	float: left;
 	margin-right: 20px; 
 }
 
 #entrar{
+	display: inline-block;
 	float: right;
 
 }
@@ -131,11 +133,11 @@ h2{
 
 .botones_cookies {
 
-	font-size: 12px;
+	font-size: 10px;
 	color: black;
 	text-decoration: none;
 	font-family: 'Titulos';
-	width: 100px;
+	
 	
 
 }
@@ -149,16 +151,43 @@ h2{
 .cookies {
 
 	background: white;
-	width: 1000px;
-	height: 200px;
+	width: 370px;
+	height: 3px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
   	margin: auto;
- 	margin-top: 0px;
- 	margin-right: 0px; 
-
+ 	margin-top: 580px;
+ 	border-radius: 15px;
+ 	padding:2%;
 }
 
 
+#aceptar_cookies {
+	display: inline-block;
+	width: 100px;
+	
+}
+
+#rechazar_cookies {
+	display: inline-block;
+	width: 100px;
+	
+}
+
+#barra_cookies {
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+	margin: auto;
+	margin-top: 70px;
+	margin-right: 48px; 
+
+}
+
+#politica_cookies{
+
+	width: 330px;
+
+}
