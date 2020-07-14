@@ -153,15 +153,15 @@ h2{
 
 	background: white;
 	width: 370px;
-	height: 3px;
+	height: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
   	margin: auto;
  	margin-top: 580px;
- 	border-radius: 15px;
- 	padding:2%;
+ 	border-radius: 7px;
+ 	padding:1%;
 }
 
 
