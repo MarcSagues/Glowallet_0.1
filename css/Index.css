@@ -1,3 +1,10 @@
+@font-face{
+	font-family: Titulos;
+	src: url("../fonts/dunkin/Dunkin Sans.ttf");
+	font-weight: bold;
+}
+
+
 body {
 	
 	background-image: url('../IMG_FE/glowalet_1_ciclista.png');
@@ -9,10 +16,11 @@ body {
 
 a {
 
-	font-size: 20px;
-	color: #0AC2E7;
+	font-size: 15px;
+	color: white;
 	text-decoration: none;
-	font-family: "Segoe UI";
+	font-family: 'Titulos';
+	font-weight: bold;
 
 }
 
@@ -26,16 +34,75 @@ ul {
 	list-style-type: none;
 }
 
-.ad {
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 
-	position: fixed;
-	top: 5px;
-	right: 30px;
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Titulos';
+	font-weight: normal;
+	-webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+	float: right;
+    margin: auto;
+ 	margin-top: 147px;
+ 	margin-right: -88px;
+
 }
 
+h2{
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Titulos';
+	word-spacing: -2px;
+}
+
+.credenciales {
+
+
+	display: inline-block;
+	height: 7px;
+	width: 220px;
+	margin: auto;
+ 	margin-top: 35px;
+ 	margin-left: 965px;
+ 	font-family: cursive; 
+ 	font-size: 10px;
+	font-weight: bold;
+	padding: 2%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+#registrarse{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: left;
+	margin-right: 20px; 
+}
+
+#entrar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	float: right;
+
+}
+
+
 .circulo {
-	width: 8px;
-	height: 8px;
+	width: 4px;
+	height: 4px;
 	border-radius: 50%;
 	background: white;
 	display: flex;
@@ -43,15 +110,97 @@ ul {
 	align-items: center;
 	text-align: center;
 	float: right;
-  margin: auto;
- 
-  padding:2%;
+  	margin: auto;
+ 	margin-top: 40px;
+ 	margin-right: 35px; 
+  	padding:2%;
+  	/*LETRA*/ 
+	color: #0AC2E7;
+	font-size: 13px;
+	font-weight: bold;
 }
 
-.circulo > #circulo {
-	font-family: "Segoe UI";
-	color: white;
-	font-size: 2px;
-	font-weight: bold;
+
+
+.instagram{
+	width: 1px;
+	height: 1px;
+	float: right;
+	margin: auto;
+	margin-top: 42px;
+	margin-right: -59px; 
+	padding: 2%;
+}
+
+.facebook{
+	width: 1px;
+	height: 1px;
+	float: right;
+	margin: auto;
+	margin-top: 10px;
+	margin-right: 48px; 
+	padding: 2%;
+}
+
+.botones_cookies {
+
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Titulos';
+	
+	
+
+}
+
+.botones_cookies:hover {
+
+	color: red;
+
+}
+
+.cookies {
+
+	background: white;
+	width: 370px;
+	height: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  	margin: auto;
+ 	margin-top: 580px;
+ 	border-radius: 7px;
+ 	padding:1%;
+}
+
+
+#consultar_cookies {
+	display: inline-block;
+	width: 70px;
+	
+}
+
+#aceptar_cookies {
+	display: inline-block;
+	width: 100px;
+	
+}
+
+#barra_cookies {
+	display: flex;
+	font-size: 14
+	width: 3px;
+	height: 3px;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+
+}
+
+#politica_cookies{
+
+	width: 350px;
 
 }
