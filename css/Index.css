@@ -55,6 +55,7 @@ h2{
 	color: black;
 	text-decoration: none;
 	font-family: 'Titulos';
+	word-spacing: -2px;
 }
 
 .credenciales {
@@ -166,7 +167,7 @@ h2{
 
 #aceptar_cookies {
 	display: inline-block;
-	width: 100px;
+	width: 60px;
 	
 }
 
@@ -177,17 +178,19 @@ h2{
 }
 
 #barra_cookies {
-	display: inline-block;
+	display: flex;
+	font-size: 14
 	width: 3px;
 	height: 3px;
+	justify-content: center;
+	align-items: center;
 	margin: auto;
-	margin-top: 70px;
-	margin-right: 48px; 
+	
 
 }
 
 #politica_cookies{
 
-	width: 330px;
+	width: 350px;
 
 }
