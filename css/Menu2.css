@@ -24,9 +24,11 @@ ul {
 	list-style-type: none;
 }
 
+
+
 img {
 
-  visibility: hidden;
+  visibility: hidden; 
   position: absolute;
   top: 150px; left: 850px;
   border-radius: 50%;
@@ -129,8 +131,3 @@ hr {
 	font-weight: bold;
 }
 
-
-#foto1 {
-
-	
-}
