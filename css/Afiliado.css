@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+	font-size: 17px;
+}
+
+#video1 {
+
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	height: auto;
+	width: auto;
+}
+
+.contenido {
+	position: fixed;
+	
+	
+
+}
+
+#boton {
+
+	width: auto;
+	padding: 10px;
+	border: none;
+	color: transparent;
+	cursor: pointer;
+}
+
+#play {
+
+	
+}
