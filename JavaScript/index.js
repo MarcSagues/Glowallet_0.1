@@ -1,4 +1,4 @@
-alert("Hola")
+
 var position = $(window).scrollTop(); 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();

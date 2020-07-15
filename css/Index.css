@@ -185,12 +185,13 @@ h2{
 	width: 370px;
 	height: 10px;
 	display: flex;
-	position: fixed;
+	position: absolute;
 	align-items: center;
 	text-align: center;
+	left: 50%;
+	right: 50%;
   	top: 680px;
-  	right: 500px;
-  	vertical-align: middle;
+  	justify-content: center;
  	border-radius: 7px;
  	padding:1%;
 }
@@ -233,3 +234,5 @@ h2{
 	right: -5px;
 	padding: 2%;
 }
+
+#cookies_
