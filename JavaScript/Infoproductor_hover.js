@@ -6,13 +6,42 @@ theLink.addEventListener("mouseout", mouseOut);
 
 
 
+
+
 function mouseOut() {
  
-	hideImage();
+	var afi = document.getElementById("afi");
+	afi.style.color= "#000000";
+}
+
+
+function mouseOut1() {
+ 
+	var info = document.getElementById("info");
+	info.style.color= "#000000";
 
 }
 
+function mouseOut2() {
+ 
+	var merca = document.getElementById("merca");
+	merca.style.color= "#000000";
+
+}
+
+
 function mouseOver() {
+
+	var afi = document.getElementById("afi");
+	afi.style.color= "#000000";
+
+	var info = document.getElementById("info");
+	info.style.color= "#a8a9ad";
+
+	var merca = document.getElementById("merca");
+	merca.style.color= "#a8a9ad";
+
+
 	var imgs = document.getElementsByTagName("img")[1];
 	
 		imgs.style.visibility = "hidden";
@@ -25,6 +54,15 @@ function mouseOver() {
 
 }
 function mouseOver1() {
+
+	var info = document.getElementById("info");
+	info.style.color= "#000000";
+
+	var afi = document.getElementById("afi");
+	afi.style.color= "#a8a9ad";
+
+	var merca = document.getElementById("merca");
+	merca.style.color= "#a8a9ad";
  	
 	var imgs = document.getElementsByTagName("img")[2];
 	
@@ -39,6 +77,15 @@ function mouseOver1() {
 }
 
 function mouseOver2() {
+
+	var merca = document.getElementById("merca");
+	merca.style.color= "#000000";
+
+	var afi = document.getElementById("afi");
+	afi.style.color= "#a8a9ad";
+
+	var info = document.getElementById("info");
+	info.style.color= "#a8a9ad";
  	
 	var imgs = document.getElementsByTagName("img")[1];
 	
