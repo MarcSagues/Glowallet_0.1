@@ -137,32 +137,26 @@ h2{
 
 .menu:hover {
 
-	box-shadow: 0 0 0 4px #FFF, 0 0 0 6px #D3D3D3;
+	box-shadow: 0 0 0 8px #FFF, 0 0 0 8px #FFF;
 }
 
 .menu{
 
-position: fixed;
-	width: 4px;
-	height: 4px;
-	border-radius: 50%;
-	background: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	float: right;
+	background: #FFF;
+    border-radius: 50%;
+    bottom: 25px;
+    box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    right: 25px;
+    transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
+    width: 60px;
+    z-index: 2;
   	top: 50px;
   	right: 40px;
-  	padding:2%;
-  	cursor: pointer;
-  	transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
-  	/*LETRA*/ 
-	color: #0AC2E7;
-	font-size: 13px;
-	font-weight: bold;
-	box-shadow: 0 0 0 2px #D3D3D3;
-	z-index: 2;
+  
+  
 
 
 } 
@@ -361,66 +355,68 @@ align-items: center;
 
 
 
-.circulo:after,
-.circulo:before {
-    
-    
+
+.hamburger {
+    position: relative;
+    top: 29px;
+    left: 15px;
+    width: 30px;
+    height: 2px;
+    background: #000;
     display: block;
-    transition: .5s ease-in-out;
+    transform-origin: center;
+    transition: .35s ease-in-out;
+}
+
+.hamburger:after,
+.hamburger:before {
+    background: #000;
+    content: "";
+    display: block;
+    transition: .35s ease-in-out;
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.circulo_blanco:after,
-.circulo_blanco:before {
-    
-    display: block;
-    transition: .5s ease-in-out;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.hamburger:before {
+    top: -10px;
 }
 
-.circulo p:before{
-	content: "MENU";
-    
-}
-
-.circulo:after {
-	content: "CERRAR"
-    bottom: 50%;
-    left:50% ;
+.hamburger:after {
+    bottom: -10px;
 }
 
 input {
-    
+    display: none;
 }
 
 input:checked ~ label .menu {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
+    background-color: #40C5DF;
 }
-
 input:checked ~ label .circulo_blanco {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
 }
 
-input:checked ~ label .circulo {
-	
+input:checked ~ label .hamburger {
     transform: rotate(45deg);
-
+    background-color: white;
 }
 
-input:checked ~ label .circulo:after {
+input:checked ~ label .hamburger:after {
     transform: rotate(90deg);
+    background-color: white;
     bottom: 0;
 }
 
-input:checked ~ label .circulo:before {
+input:checked ~ label .hamburger:before {
     transform: rotate(90deg);
+  background-color: white;
     top: 0;
 }
 
 input:checked ~ ul {
     opacity: 1;
 }
+
