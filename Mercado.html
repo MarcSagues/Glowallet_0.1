@@ -5,12 +5,52 @@
 	
 		<meta charset="UTF-8">
 		<title> Glowallet </title>
+		<link rel="stylesheet" type="text/css" href="css/Mercado.css">
 	
 	</head>
 	
 	<body>
 	
-		<h1> Mercado </h1>
+		<video autoplay muted loop  id="video1">
+
+			<source src="IMG_FE/video.mp4" type="video/mp4">
+				Video no disponible
+
+		</video>
+
+		<div class="contenido">
+			
+			
+
+			<button id="boton" onclick="miFuncion()"><img id='play' src='IMG_FE/boton_pause.png'/></button>
+
+		</div>
+
+		<script>
+			
+			var video = document.getElementById("video1");
+			var boton = document.getElementById("boton");
+		
+
+
+
+			function miFuncion(){
+
+				if(video.paused){
+					video.play();
+					
+					document.getElementById('play').src = "IMG_FE/boton_pause.png";
+					
+				} else {
+					video.pause();
+					document.getElementById('play').src = 'IMG_FE/boton_play.png';
+				}
+			}
+
+			
+
+
+		</script>
 
 	
 
