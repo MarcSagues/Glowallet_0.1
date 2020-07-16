@@ -6,14 +6,48 @@
 		<meta charset="UTF-8">
 		<title> Glowallet </title>
 		<link rel="stylesheet" type="text/css" href="css/Index.css" >
+		
+
 
 		
 	</head>
 	
-	<body>
-	
-	
-		
+	<body style="overflow-x:hidden; overflow-y:hidden">
+
+	 <input id="navbar" type='checkbox'>
+    
+				<label for="navbar">
+					<div onclick="funcionMenu()" class="menu">
+				<span  href="#" class="hamburger"></span>
+				</div> 
+
+
+				</label>
+
+		<ul id="test1">
+
+				<li></li>
+					
+				<li id="opcion1" class="list"><a class="botones" id="afi"  name="opcion1" href="Afiliado.html" onmouseover="mouseOver()" onmouseout="mouseOut()" > Afiliado </a></li>
+				<hr  id="barra1" />
+				<div style="text-align: right" class="photo2"  ><img class="photos"id="foto1" src="IMG_FE/afiliado1.png"  /></div>
+				
+					
+				<br><br>
+				<li id="opcion2" class="list"><a id="info" class="botones" name="opcion2" href="Infoproductor.html" onmouseover="mouseOver1()" onmouseout="mouseOut1()"> Infoproductor </a></li>
+				<hr  id="barra2" /> 
+				<div style="text-align: right" class="photo2"  ><img class="photos" id="foto2" src="IMG_FE/infoproductor.png"  /></div>
+				
+				
+
+				<br><br>
+				<li class="opciones3" id="opcion3"class="list"><a  id="merca" class="botones" href="Mercado.html" onmouseover="mouseOver2()" onmouseout="mouseOut2()"> Mercado </a></li>
+				<hr class="opciones3" id="barra3" style="color: #000000;"/>
+				<div style="text-align: right" class="photo2"  ><img class="photos" id="foto3" src="IMG_FE/mercado.jpg"  /></div>
+				
+
+			</ul>
+
 
 			<span class="credenciales">
 
@@ -25,22 +59,33 @@
 
 
 			</span>
+
 			
-				<a  href="Menu2.html" class="circulo"> MENU </a>
 			
+
+
+
+
 
 				<a class="facebook"><img src="IMG_FE/facebook-4-24.ico"></i></a>
 				<a class="instagram"><img src="IMG_FE/instagram-4-24.ico"></a>
-				<h1>Síguenos en •</h1>
+				<h1 id="siguenos">Síguenos en •</h1>
 
 
-				<span class="cookies">
+				<span class="cookies" id="cookies_id">
 					
 					<h2 id="politica_cookies">política de privacidad y de cookies</h2>
-					<h2 id="barra_cookies"><a class="botones_cookies" id="consultar_cookies">Consultar</a>|</h2>
-					<a class="botones_cookies" id="aceptar_cookies">Aceptar</a>		
+					<h2 id="barra_cookies"><button class="botones_cookies" id="consultar_cookies" onclick="leerCookies()">Consultar</button>|</h2>
+					<button class="botones_cookies" id="aceptar_cookies" onclick="aceptarCookies()">Aceptar</button>		
 					
 				</span>
+				<object id="circulo_blanco"></object>
+				<div id="cookies_div">
+					
+					<div class="titulo_cookies_div"><h3 class="titulo_cookies"> POLÍTICA DE PRIVACIDAD Y DE COOKIES</h3></div>
+					<h4 id="texto_politica"></h4>
+
+				</div>
 
 
 
@@ -48,5 +93,8 @@
 	
 	
 	</body>
+
+<script type="text/javascript" src="JavaScript/index.js"></script>
+<script type="text/javascript" src="JavaScript/Infoproductor_hover.js"></script>
 	
 </html>

@@ -1,3 +1,10 @@
+@font-face {
+	font-family: Titulos;
+	src: url("../fonts/dunkin/Dunkin Sans.ttf");
+	
+}
+
+
 a {
 
 
@@ -15,8 +22,7 @@ a {
 a:hover {
 
 	color:#000000;
-	font-family: "Segoe UI";
-	font-weight: bold;
+	
 }
 
 ul {
@@ -127,7 +133,7 @@ hr {
   	padding:2%;
   	/*LETRA*/ 
 	color: #f4f4f4;
-	font-size: 13px;
-	font-weight: bold;
+	font-size: 11px;
+	
 }
 
