@@ -170,5 +170,20 @@ function hideImage(){
 	
 }
 
+function funcionMenu(){
+
+
+	if(document.getElementById('test1').style.display === 'block'){
+		
+		document.getElementById('test1').style.display = 'none';
+		
+	
+	} else  {
+	
+		document.getElementById('test1').style.display = 'block';
+		
+	}
+}
+
 
 

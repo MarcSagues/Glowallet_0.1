@@ -7,7 +7,7 @@
 
 a {
 
-	opacity: 1;
+
 	display: block;
 	font-size: 60px;
 	color: #a8a9ad;
@@ -25,7 +25,7 @@ a:hover {
 	
 }
 
-ul{
+ul {
 
 	list-style-type: none;
 }

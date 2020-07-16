@@ -36,7 +36,7 @@ a.botones {
 	text-decoration: none;
 	font-weight: bold;
 	font-family: sans-serif;
-	margin-left: 240px;
+	margin-left: 60%;
 
 
 }
@@ -401,6 +401,7 @@ align-items: center;
 
 input {
     display: none;
+
 }
 
 input:checked ~ label .menu {
@@ -426,20 +427,22 @@ input:checked ~ label .hamburger:before {
     transform: rotate(90deg);
   background-color: white;
     top: 0;
-    
-}
 
-input:checked ~ li {
-    opacity: 0;
 }
 
 
+input:checked + ul{
+    display: block;
+}
+input + ul{
+	display: none;
+}
 
-ul#test1{
+#test1{
 
 	position: absolute;
-	opacity: 1;
-	z-index: 4;
+	display: none;
+	z-index: 8;
 }
 
 .photos {
@@ -519,7 +522,7 @@ hr {
 	margin-top: 0px;
 	margin-left: 0px ;
  	height: 16px;
-  	width: 5%;
+  	width: 10%;
   	margin-left: 240px;
   
 }
@@ -528,11 +531,13 @@ img {
 
   visibility: hidden; 
   position: absolute;
-  top: 150px; left: 850px;
-  border-radius: 50%;
-  width: 350px; 
-  height:  350px;
   float: right;
+  top: 15%; left: 100%;
+  border-radius: 50%;
+  width: 300px; 
+  height:  300px;
+  
+
 
 }
 
