@@ -112,7 +112,37 @@ h2{
 
 
 .circulo {
-	position: fixed;
+	position: relative;
+    width: 15%;
+    height: 20%;
+    display: flex;
+    transform-origin: center;
+    transition: .5s ease-in-out;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	
+	
+}
+
+.circulo p {
+	display: table-cell;
+	margin: 0;
+	padding: 0 1rem;
+	vertical-align: middle
+
+}
+
+
+.menu:hover {
+
+	box-shadow: 0 0 0 4px #FFF, 0 0 0 6px #D3D3D3;
+}
+
+.menu{
+
+position: fixed;
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
@@ -126,20 +156,16 @@ h2{
   	right: 40px;
   	padding:2%;
   	cursor: pointer;
-  	transition: box-shadow 1.1s cubic-bezier(.19, 1, .22, 1);
+  	transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
   	/*LETRA*/ 
 	color: #0AC2E7;
 	font-size: 13px;
 	font-weight: bold;
 	box-shadow: 0 0 0 2px #D3D3D3;
-	
-	
-}
+	z-index: 2;
 
-.circulo:hover {
 
-	box-shadow: 0 0 0 2px #FFF, 0 0 0 4px #D3D3D3;
-}
+} 
 
 #circulo_blanco {
 	width: 150px;
@@ -156,6 +182,9 @@ h2{
  	margin-top: 560px;
  	margin-left: -100px; 
   	padding:2%;
+  	transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
+
+
   	
 }
 
@@ -332,10 +361,10 @@ align-items: center;
 
 
 
-.circulo_blanco:after,
-.circulo_blanco:before {
-    background: #000;
-    content: "";
+.circulo:after,
+.circulo:before {
+    
+    
     display: block;
     transition: .5s ease-in-out;
     position: absolute;
@@ -343,32 +372,51 @@ align-items: center;
     height: 100%;
 }
 
+.circulo_blanco:after,
 .circulo_blanco:before {
-    top: -10px;
+    
+    display: block;
+    transition: .5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-.circulo_blanco:after {
-    bottom: -10px;
+.circulo p:before{
+	content: "MENU";
+    
+}
+
+.circulo:after {
+	content: "CERRAR"
+    bottom: 50%;
+    left:50% ;
 }
 
 input {
     
 }
 
-input:checked ~ label .circulo {
+input:checked ~ label .menu {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
 }
 
 input:checked ~ label .circulo_blanco {
-    transform: rotate(45deg);
+    box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
 }
 
-input:checked ~ label .circulo_blanco:after {
+input:checked ~ label .circulo {
+	
+    transform: rotate(45deg);
+
+}
+
+input:checked ~ label .circulo:after {
     transform: rotate(90deg);
     bottom: 0;
 }
 
-input:checked ~ label .circulo_blanco:before {
+input:checked ~ label .circulo:before {
     transform: rotate(90deg);
     top: 0;
 }
