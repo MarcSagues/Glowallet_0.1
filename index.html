@@ -25,9 +25,15 @@
 
 
 			</span>
-			
-				<a  href="Menu2.html" class="circulo"> MENU </a>
-			
+
+			 <input id="navbar" type='checkbox'>
+    
+				<label for="navbar">
+					<div class="menu">
+				<span  href="#" class="hamburger"></span>
+				</div> 
+				</label>
+
 
 				<a class="facebook"><img src="IMG_FE/facebook-4-24.ico"></i></a>
 				<a class="instagram"><img src="IMG_FE/instagram-4-24.ico"></a>
@@ -37,11 +43,17 @@
 				<span class="cookies">
 					
 					<h2 id="politica_cookies">política de privacidad y de cookies</h2>
-					<h2 id="barra_cookies"><a class="botones_cookies" id="consultar_cookies">Consultar</a>|</h2>
-					<a class="botones_cookies" id="aceptar_cookies">Aceptar</a>		
+					<h2 id="barra_cookies"><button class="botones_cookies" id="consultar_cookies" onclick="leerCookies()">Consultar</button>|</h2>
+					<button class="botones_cookies" id="aceptar_cookies" onclick="aceptarCookies()">Aceptar</button>		
 					
 				</span>
 				<object id="circulo_blanco"></object>
+				<div id="cookies_div">
+					
+					<div class="titulo_cookies_div"><h3 class="titulo_cookies"> POLÍTICA DE PRIVACIDAD Y DE COOKIES</h3></div>
+					<h4 id="texto_politica"></h4>
+
+				</div>
 
 
 			
