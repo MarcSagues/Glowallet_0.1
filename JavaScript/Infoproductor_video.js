@@ -1,4 +1,3 @@
-
 var video = document.getElementById("video1");
 var boton = document.getElementById("boton");
 document.getElementById('play').style.visibility = "hidden";
