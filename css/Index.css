@@ -27,24 +27,36 @@ a {
 	font-weight: bold;
 
 }
+a.botones {
+
+	opacity: 1;
+	display: block;
+	font-size: 60px;
+	color: #a8a9ad;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-left: 240px;
+
+
+}
+a.list:hover {
+
+	color:#000000;
+	
+}
 
 a:hover {
 
 	color:#40C5DF;
 }
 
-ul {
+ul{
 
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-    font-size: 45px;
-    opacity: 0;
-    transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
-    z-index: 2;
+	list-style-type: none;
 }
+
+
 
 h1{
 
@@ -148,7 +160,7 @@ h2{
     box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
     cursor: pointer;
     height: 60px;
-    position: absolute;
+   position: fixed;
     right: 25px;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
@@ -414,9 +426,116 @@ input:checked ~ label .hamburger:before {
     transform: rotate(90deg);
   background-color: white;
     top: 0;
+    
 }
 
-input:checked ~ ul {
-    opacity: 1;
+input:checked ~ li {
+    opacity: 0;
 }
+
+
+
+ul#test1{
+
+	position: absolute;
+	opacity: 1;
+	z-index: 4;
+}
+
+.photos {
+
+	visibility: hidden;
+	display: block;
+	font-size: 60px;
+	color: #a8a9ad;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Segoe UI";
+	margin-left: 240px;
+
+
+}
+
+#opcion1{
+
+	margin-top: 180px;
+	visibility: visible;
+}
+
+#opcion1:hover + #barra1{
+
+	visibility: visible;
+}
+#barra1 {
+
+	visibility: hidden;
+	background-color: #f80000;
+	
+}
+
+
+
+
+
+
+#opcion2{
+
+	visibility: visible;
+}
+
+#opcion2:hover + #barra2 {
+
+	visibility: visible;
+}
+#barra2 {
+
+	visibility: hidden;
+	background-color: #f80000;
+	
+}
+
+
+
+#opcion3{
+
+	visibility: visible;
+}
+
+#opcion3:hover + #barra3 {
+
+	visibility: visible;
+}
+#barra3 {
+	
+	visibility: hidden;
+	background-color: #f80000;
+	
+
+}
+
+
+hr {
+	margin: auto;
+	margin-top: 0px;
+	margin-left: 0px ;
+ 	height: 16px;
+  	width: 5%;
+  	margin-left: 240px;
+  
+}
+
+img {
+
+  visibility: hidden; 
+  position: absolute;
+  top: 150px; left: 850px;
+  border-radius: 50%;
+  width: 350px; 
+  height:  350px;
+  float: right;
+
+}
+
+
+
 
