@@ -4,19 +4,21 @@
 	font-weight: bold;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
+html {
+	height: 100vh;
+}
 
 body {
 	
 	background-image: url('../IMG_FE/glowalet_1_ciclista.png');
 	background-size: cover;
 	background-repeat:no-repeat;
-	background-attachment: fixed;
+	background-attachment: absolute;
 	background-position: center;
+	height: 100vh;
 }
+
 
 a {
 
@@ -82,6 +84,24 @@ h2{
 	word-spacing: -2px;
 }
 
+#menu_principal {
+
+	height: 100vh;
+	position: absolute;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+
+
+}
+
+#video_1 {
+	height: 100vh;
+	background-color: orange;
+	position: absolute;
+
+}
+
 .credenciales {
 
 
@@ -103,7 +123,7 @@ h2{
 
 #registrarse{
 	display: flex;
-	position: fixed;
+	position: absolute;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -113,7 +133,7 @@ h2{
 
 #entrar{
 	display: flex;
-	position: fixed;
+	position: absolute;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -160,7 +180,7 @@ h2{
     box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
     cursor: pointer;
     height: 60px;
-   position: fixed;
+   position: absolute;
     right: 25px;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
@@ -178,7 +198,7 @@ h2{
 	height: 150px;
 	border-radius: 50%;
 	background: white;
-	position: fixed;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -197,7 +217,7 @@ h2{
 
 
 .instagram{
-	position: fixed;
+	position: absolute;
 	width: 1px;
 	height: 1px;
 	float: right;
@@ -207,7 +227,7 @@ h2{
 }
 
 .facebook{
-	position: fixed;
+	position: absolute;
 	width: 100px;
 	height: 100px;
 	float: right;
@@ -249,7 +269,7 @@ h2{
 	width: 370px;
 	height: 10px;
 	display: flex;
-	position: fixed;
+	position: absolute;
 	align-items: center;
 	text-align: center;
 	left: 50%;
@@ -306,7 +326,7 @@ h2{
 }
 
 #siguenos {
-	position: fixed;
+	position: absolute;
 	float: right;
 	top: 250px;
 	right: -5px;
@@ -314,7 +334,7 @@ h2{
 }
 
 #cookies_div {
-position: fixed;
+position: absolute;
 background-color: white;
 width: 50%;
 height: 65%;

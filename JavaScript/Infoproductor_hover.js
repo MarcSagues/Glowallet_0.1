@@ -1,3 +1,21 @@
+window.onload= function(){
+
+
+	if(!document.getElementById('navbar').checked){
+
+		
+		document.getElementById('test1').style.display = 'none';
+		
+	
+	} else  {
+		
+
+
+		document.getElementById('test1').style.display = 'block';
+		
+	}
+}
+
 var theLink = document.querySelectorAll(".photos");
 
 // "Wire" the element's events
