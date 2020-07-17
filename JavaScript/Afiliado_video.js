@@ -42,27 +42,16 @@ var timeout;
 
 
 
-if (!video.paused){
-document.onmousemove = function(){
-     clearTimeout(timeout);
-     timeout = setTimeout(function(){
+if (video.paused){
 
-     	document.getElementById('play').style.visibility = "visible";			
-		document.getElementById('play').src = "IMG_FE/boton_play.png";
-
-     	
-     	
-
-     } , 2600);
-}} else {
 
 	document.onmousemove = function(){
      clearTimeout(timeout);
      timeout = setTimeout(function(){
-
+     	
      	document.getElementById('play').style.visibility = "hidden";			
 		document.getElementById('play').src = "IMG_FE/boton_pause.png";
 
 
-}, 2600);
-}}
+}, 2000);
+}} 

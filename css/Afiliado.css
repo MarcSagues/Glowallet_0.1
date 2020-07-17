@@ -1,13 +1,8 @@
 
-body {
-	margin: 0;
-	font-family: Arial;
-	font-size: 17px;
-}
 
 #video1 {
 
-position: fixed;
+position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
@@ -38,6 +33,20 @@ position: fixed;
 	bottom: 45%;
 	left: 47%;
 	right: 47%;
+
+}
+
+#titulo {
+
+	position: relative;
+	width: 80px;
+	height: 80px;
+	top: 10%;
+	left: 39%;
+	
+	font-size: 50px;
+
+
 
 }
 
