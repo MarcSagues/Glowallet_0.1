@@ -208,11 +208,10 @@ h2{
 
 .facebook{
 	position: fixed;
-	width: 1px;
-	height: 1px;
+	width: 100px;
+	height: 100px;
 	float: right;
-	top: 147px;
-	right: 53px;
+	t
 	padding: 2%;
 }
 

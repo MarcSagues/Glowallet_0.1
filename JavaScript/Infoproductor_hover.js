@@ -171,15 +171,19 @@ function hideImage(){
 }
 
 function funcionMenu(){
+	
 
 
-	if(document.getElementById('test1').style.display === 'block'){
+	if(document.getElementById('navbar').checked){
+
 		
 		document.getElementById('test1').style.display = 'none';
 		
 	
 	} else  {
-	
+		
+
+
 		document.getElementById('test1').style.display = 'block';
 		
 	}
