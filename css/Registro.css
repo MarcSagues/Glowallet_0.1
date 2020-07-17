@@ -2,11 +2,22 @@
   box-sizing: border-box; }
 
 html {
-  overflow-y: scroll; }
+  overflow-y: hidden; }
 
 body {
-  background: #c1bdba;
-  font-family: 'Titillium Web', sans-serif; }
+  font-family: 'Titillium Web', sans-serif;
+  background: url(../IMG_FE/registro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /*estandar css3*/
+  -moz-background-size: 100% 100%;
+  /*Firefox 3.6*/
+  -o-background-size: 100% 100%;
+  /*opera*/
+  -webkit-background-size: 100% 100%;
+  /*Safari*/ }
 
 a {
   text-decoration: none;
@@ -18,10 +29,10 @@ a {
 .form {
   background: rgba(19, 35, 47, 0.9);
   padding: 40px;
-  max-width: 600px;
-  margin: 40px auto;
+  width: 600px;
   border-radius: 4px;
-  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3); }
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  float: right; }
 
 .tab-group {
   list-style: none;
