@@ -59,7 +59,8 @@ function mouseOut2() {
 
 function mouseOver() {
 
-	
+	var imgs = document.getElementById("play_btn");
+	imgs.style.visibility = "visible";
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "visible";
 
@@ -90,6 +91,8 @@ function mouseOver() {
  	
 	var imgs = document.getElementsByTagName("img")[0];
 	imgs.style.visibility = "visible";
+
+
 
 }
 function mouseOver1() {

@@ -18,6 +18,8 @@ background-image: center;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+width: 100vw;
+height: 100vh;
 
 }
 
@@ -202,6 +204,8 @@ h2{
 
 
 .instagram{
+
+	display: none;
 	position: relative;
 	width: 2vh;
 	padding: 2%;
@@ -209,6 +213,7 @@ h2{
 }
 
 .facebook{
+	display: none;
 	position: absolute;
 	width: 2vh;
 	height: 2vh;
@@ -250,7 +255,7 @@ h2{
 justify-content: center;
 align-items: center;
 	text-align: center;
-	margin: 44vh 0px 0px 36vw; /*arriba derecha abajo izquierda */
+	margin: 75vh 0px 0px 36vw; /*arriba derecha abajo izquierda */
 
 
 	width: 370px;
@@ -547,6 +552,20 @@ hr {
   	margin-left: 240px;
   
 }
+
+
+#play_btn {
+	visibility: hidden;
+	display: flex;
+	width: 10vh;
+	margin: 0 0 23vh 60vw;
+	z-index: 8;
+
+}
+#play_imagen {
+	width: 10vh;
+}
+
 
 
 
