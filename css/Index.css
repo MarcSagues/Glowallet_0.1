@@ -4,23 +4,27 @@
 	font-weight: bold;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
+html {
+	height: 100vh;
+}
 
 body {
 	
 	background-image: url('../IMG_FE/glowalet_1_ciclista.png');
-	background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
 }
+
 
 a {
 
-	font-size: 15px;
+	font-size: 100%;
 	color: white;
 	text-decoration: none;
 	font-family: 'Titulos';
@@ -82,57 +86,58 @@ h2{
 	word-spacing: -2px;
 }
 
-.credenciales {
+#menu_principal {
 
-
-	display: inline-block;
-	height: 7px;
-	width: 220px;
-	margin: auto;
- 	margin-top: 35px;
- 	margin-left: 965px;
- 	font-family: cursive; 
- 	font-size: 10px;
-	font-weight: bold;
-	padding: 2%;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	display: flex;
+	flex-direction: column; 
 	justify-content: center;
-	align-items: center;
-	text-align: center;
 
 }
 
+#video_1 {
+	height: 100vh;
+	background-color: orange;
+	position: absolute;
+
+}
+
+
+
 #registrarse{
-	display: flex;
-	position: fixed;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	float: right;
-	right: 340px;
+	
+	position: absolute;
+	right: 20vw;
+	top: 6vh;
 }
 
 #entrar{
-	display: flex;
-	position: fixed;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+	
 	float: right;
-	right: 200px;
+	
+	position: absolute;
+	right: 12vw;
+	top: 6vh;
+  	
+
 
 }
 
 
 .circulo {
 	position: relative;
-    width: 15%;
-    height: 20%;
+    width: 15vw;
+    height: 20vh;
     display: flex;
     transform-origin: center;
     transition: .5s ease-in-out;
     justify-content: center;
 	align-items: center;
 	text-align: center;
+
 
 	
 	
@@ -154,19 +159,20 @@ h2{
 
 .menu{
 
+	float: right;
 	background: #FFF;
     border-radius: 50%;
-    bottom: 25px;
+    
     box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
     cursor: pointer;
     height: 60px;
-   position: fixed;
+   position: absolute;
     right: 25px;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
     z-index: 2;
-  	top: 50px;
-  	right: 40px;
+  	top: 2vw;
+  	right: 7vh;
   
   
 
@@ -178,15 +184,14 @@ h2{
 	height: 150px;
 	border-radius: 50%;
 	background: white;
-	position: fixed;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	float: left;
   	margin: auto;
- 	margin-top: 560px;
- 	margin-left: -100px; 
+	top: 87vh;
+	right: 93vw;
   	padding:2%;
   	transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
 
@@ -197,21 +202,17 @@ h2{
 
 
 .instagram{
-	position: fixed;
-	width: 1px;
-	height: 1px;
-	float: right;
-	top: 180px;
-	right: 53px;
+	position: relative;
+	width: 2vh;
 	padding: 2%;
+	margin: 0px 50px 0px 0px;
 }
 
 .facebook{
-	position: fixed;
-	width: 100px;
-	height: 100px;
+	position: absolute;
+	width: 2vh;
+	height: 2vh;
 	float: right;
-	t
 	padding: 2%;
 }
 
@@ -244,24 +245,29 @@ h2{
 }
 
 .cookies {
+	position: absolute;
+	display: flex;
+justify-content: center;
+align-items: center;
+	text-align: center;
+	margin: 44vh 0px 0px 36vw; /*arriba derecha abajo izquierda */
 
-	background: white;
+
 	width: 370px;
 	height: 10px;
-	display: flex;
-	position: fixed;
-	align-items: center;
-	text-align: center;
-	left: 50%;
-	right: 50%;
-  	top: 90%;
-  	justify-content: center;
+
+	background: white;
+	
+	
+
  	border-radius: 7px;
  	padding:1%;
  	border-style: solid;
 	border-width: 1px;
 	border-color: black;
-	border-radius: 7px;
+
+
+
 
 }
 
@@ -306,15 +312,15 @@ h2{
 }
 
 #siguenos {
-	position: fixed;
+	position: absolute;
 	float: right;
-	top: 250px;
-	right: -5px;
+	top: 30vh;
+	right: 0.7vw;
 	padding: 2%;
 }
 
 #cookies_div {
-position: fixed;
+position: absolute;
 background-color: white;
 width: 50%;
 height: 65%;
@@ -405,10 +411,11 @@ input {
 
 input:checked ~ label .menu {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
-    background-color: #40C5DF;
+    background-color: #ff6666;
 }
 input:checked ~ label .circulo_blanco {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
+
 }
 
 input:checked ~ label .hamburger {
@@ -437,6 +444,8 @@ input + ul{
 	display: none;
 }
 
+
+
 #test1{
 
 	position: absolute;
@@ -445,22 +454,35 @@ input + ul{
 }
 
 .photos {
-
-	visibility: hidden;
+	  visibility: hidden; 
+  position: absolute;
+  float: right;
+  top: -20%; left: 100%;
+  border-radius: 50%;
+  width: 430px; 
+  height:  430px;
 	display: block;
-	font-size: 60px;
+	justify-content: center;
 	color: #a8a9ad;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: "Segoe UI";
-	margin-left: 240px;
+	margin-left: 30vw;
+margin-bottom: 70vh; 
+ box-shadow: 0 0 0 #333132; 
+transition: box-shadow 10s cubic-bezier(.19, 2, .50, 2);
 
 
 }
 
+.photos:active {
+
+	 box-shadow: 0 0 0 130vw #333132, 0 0 0 130vh #333132;
+}
+
 #opcion1{
 
-	margin-top: 180px;
+	
 	visibility: visible;
 }
 
@@ -524,20 +546,6 @@ hr {
   	width: 10%;
   	margin-left: 240px;
   
-}
-
-img {
-
-  visibility: hidden; 
-  position: absolute;
-  float: right;
-  top: 15%; left: 100%;
-  border-radius: 50%;
-  width: 300px; 
-  height:  300px;
-  
-
-
 }
 
 
