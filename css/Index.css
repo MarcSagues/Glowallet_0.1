@@ -202,22 +202,17 @@ h2{
 
 
 .instagram{
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	display: flex;
-	flex-direction: column; 
-	justify-content: center;
+	position: relative;
+	width: 2vh;
 	padding: 2%;
-	z-index: 3;
+	margin: 0px 50px 0px 0px;
 }
 
 .facebook{
 	position: absolute;
-	width: 100px;
-	height: 100px;
+	width: 2vh;
+	height: 2vh;
 	float: right;
-	t
 	padding: 2%;
 }
 
@@ -251,11 +246,11 @@ h2{
 
 .cookies {
 	position: absolute;
-
+	display: flex;
 justify-content: center;
 align-items: center;
 	text-align: center;
-	
+	margin: 44vh 0px 0px 36vw; /*arriba derecha abajo izquierda */
 
 
 	width: 370px;
@@ -263,7 +258,7 @@ align-items: center;
 
 	background: white;
 	
-	display: flex;
+	
 
  	border-radius: 7px;
  	padding:1%;
@@ -420,7 +415,7 @@ input:checked ~ label .menu {
 }
 input:checked ~ label .circulo_blanco {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
-    
+
 }
 
 input:checked ~ label .hamburger {
@@ -459,8 +454,13 @@ input + ul{
 }
 
 .photos {
-
-	visibility: hidden;
+	  visibility: hidden; 
+  position: absolute;
+  float: right;
+  top: -20%; left: 100%;
+  border-radius: 50%;
+  width: 430px; 
+  height:  430px;
 	display: block;
 	justify-content: center;
 	color: #a8a9ad;
@@ -469,8 +469,15 @@ input + ul{
 	font-family: "Segoe UI";
 	margin-left: 30vw;
 margin-bottom: 70vh; 
+ box-shadow: 0 0 0 #333132; 
+transition: box-shadow 10s cubic-bezier(.19, 2, .50, 2);
 
 
+}
+
+.photos:active {
+
+	 box-shadow: 0 0 0 130vw #333132, 0 0 0 130vh #333132;
 }
 
 #opcion1{
@@ -539,21 +546,6 @@ hr {
   	width: 10%;
   	margin-left: 240px;
   
-}
-
-img {
-
-  visibility: hidden; 
-  position: absolute;
-  float: right;
-  top: -20%; left: 100%;
-  border-radius: 50%;
-  width: 430px; 
-  height:  430px;
-
-  
-
-
 }
 
 
