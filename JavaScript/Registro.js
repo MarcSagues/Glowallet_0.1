@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-  
-  $('a#entrar').click(function (e) {
-  
-    e.preventDefault();                   // prevent default anchor behavior
-    var goTo = this.getAttribute("href"); // store anchor href
-
-    setTimeout(function(){
-         window.location = goTo;
-    },1000);       
-});
-
-
-
-
-  $('.botones_eff').click(function (e) {
-  	    	var id = this.getAttribute("id");
-
-    e.preventDefault();
-    	var goTo = this.getAttribute("href");
-           
-    
-
-    setTimeout(function(){
-         window.location = goTo;
-    },2000);       
-}); 
-
-
-  $('.photos').click(function (e) {
-  	    	var id = this.getAttribute("id");
-  	    	document.getElementById(id).style.box_shadow = "0 0 0 130vw #333132, 0 0 0 130vh #333132";
-  	    	
-
-     
-}); 
-  
-=======
 
 $(document).ready(function() {
 
@@ -86,4 +48,3 @@ $('.tab a').on('click', function (e) {
 
 
 });
->>>>>>> uri_master
