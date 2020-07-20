@@ -4,25 +4,25 @@
 	
 }
 
-body {
-	margin: 0;
 
-	
-}
 
-#video1 {
+#video1_mer {
+	display: inline-block;
 
-position: fixed;
-    top: 0;
+position: absolute;
+    top: 100vh;
     left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    
 }
 
 
 
-#boton {
+
+
+#boton_mer {
 
 	
 	width: auto;
@@ -30,13 +30,14 @@ position: fixed;
 	border-width: 0;
 	background-color: transparent;
 	cursor: pointer;
+	
 }
 
 
 
-#play {
+#play_mer {
 
-	position: fixed;
+	position: absolute;
 	width: 80px;
 	height: 80px;
 	top: 45%;
