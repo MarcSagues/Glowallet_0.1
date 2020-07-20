@@ -616,8 +616,9 @@ hr {
 }
 .play_back {
 
-	transition: all 0s ease-in-out;
+	transition: all 1.5s ease-in-out;
 	transform: translate(0vw,0);
+
 }
 
 .play_move1 {
