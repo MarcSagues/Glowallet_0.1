@@ -1,22 +1,27 @@
-body {
-	margin: 0;
-	font-family: Arial;
-	font-size: 17px;
-}
 
-#video1 {
 
-position: fixed;
-    top: 0;
+#video2 {
+
+position: absolute;
+	
     left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    top: 400vh;
+}
+
+#pantalla_completa2 {
+	
+	left: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 600vh;
 }
 
 
 
-#boton {
+#boton2 {
 
 	
 	width: auto;
@@ -28,12 +33,12 @@ position: fixed;
 
 
 
-#play {
+#play2 {
 
-	position: fixed;
+	position: relative;
 	width: 80px;
 	height: 80px;
-	top: 45%;
+	top: 100vh;
 	bottom: 45%;
 	left: 47%;
 	right: 47%;

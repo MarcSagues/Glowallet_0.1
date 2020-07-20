@@ -59,7 +59,9 @@ function mouseOut2() {
 
 function mouseOver() {
 
-	
+	var play = document.getElementById("play_btn");
+	play.style.visibility = "visible";
+	$('#play_btn').addClass('play_move');
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "visible";
 
@@ -91,9 +93,14 @@ function mouseOver() {
 	var imgs = document.getElementsByTagName("img")[0];
 	imgs.style.visibility = "visible";
 
+
+
 }
 function mouseOver1() {
+	var play = document.getElementById("play_btn");
+	play.style.visibility = "visible";
 
+	$('#play_btn').addClass('play_move');
 
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "hidden";
@@ -125,10 +132,22 @@ function mouseOver1() {
 	var imgs = document.getElementsByTagName("img")[1];
 	imgs.style.visibility = "visible";
 
+
+
 }
 
 function mouseOver2() {
 
+	var play = document.getElementById("play_btn");
+	play.style.visibility = 'hidden';
+
+
+
+	$('#play_btn').addClass('play_move1');
+
+	play.style.visibility = 'visibility';
+
+	$('#play_btn').addClass('play_move');
 
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "hidden";
@@ -158,6 +177,7 @@ function mouseOver2() {
  	
 	var imgs = document.getElementsByTagName("img")[2];
 	imgs.style.visibility = "visible";
+	imgs.classList.add('photo_move');
 
 }
 
@@ -196,13 +216,19 @@ function funcionMenu(){
 
 		
 		document.getElementById('test1').style.display = 'none';
+
+		document.body.classList.remove('no_scroll');
+
+		document.getElementById("play_btn").style.visibility="hidden";
 		
 	
 	} else  {
 		
 
-
+		document.getElementById("play_btn").style.visibility="hidden";
+		alert(document.getElementById("play_btn").style.visibility);
 		document.getElementById('test1').style.display = 'block';
+		
 		
 	}
 }

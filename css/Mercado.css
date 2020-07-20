@@ -1,22 +1,28 @@
-body {
-	margin: 0;
-	font-family: Arial;
-	font-size: 17px;
+@font-face{
+	font-family: Titulos;
+	src: url("../fonts/Coco Gothic Bold-trial.ttf");
+	
 }
 
-#video1 {
 
-position: fixed;
-    top: 0;
+
+#video1_mer {
+	display: inline-block;
+
+position: absolute;
+    top: 100vh;
     left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    
 }
 
 
 
-#boton {
+
+
+#boton_mer {
 
 	
 	width: auto;
@@ -24,13 +30,14 @@ position: fixed;
 	border-width: 0;
 	background-color: transparent;
 	cursor: pointer;
+	
 }
 
 
 
-#play {
+#play_mer {
 
-	position: fixed;
+	position: absolute;
 	width: 80px;
 	height: 80px;
 	top: 45%;
@@ -40,3 +47,11 @@ position: fixed;
 
 }
 
+#Mercado {
+
+	position: absolute;
+	color: #fafafa;
+	z-index: 40;
+	font-family: "Titulos";
+	font-size: 80px;
+}

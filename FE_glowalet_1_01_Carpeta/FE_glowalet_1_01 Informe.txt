@@ -1,0 +1,54 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: FE_glowalet_1_01.ai
+Modo de color: Color CMYK
+Perfil de color: Coated FOGRA39 (ISO 12647-2:2004)
+Unidades de regla: mil’metros
+Dimensiones de la mesa de trabajo: 419,9996 mm x 297,0001 mm
+Mostrar im‡genes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edici—n de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Coco Gothic Light (TrueType)
+Coco Gothic (TrueType)
+Coco Gothic Bold (TrueType)
+Coco Gothic Fat (TrueType)
+Roboto Light (TrueType)
+Roboto Regular (TrueType)
+Roboto Medium (TrueType)
+Roboto Bold (TrueType)
+Montserrat Light (OTF)
+Montserrat Medium (OTF)
+Montserrat Bold (OTF)
+Montserrat Black (OTF)
+Phosphate Solid (TrueType)
+Raleway (OTF)
+Raleway SemiBold (OTF)
+Space Grotesk Bold (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Im‡genes enlazadas:
+Ninguno

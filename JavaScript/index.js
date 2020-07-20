@@ -18,7 +18,9 @@ function aceptarCookies(){
 
 }
 
-
+function efectoFoto(elemento){
+	 elemento.style.box_shadow = "0 0 0 130vw #333132, 0 0 0 130vh #333132";
+}
 
 
 
