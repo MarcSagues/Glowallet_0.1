@@ -228,7 +228,7 @@ function funcionMenu(){
 		document.getElementById("play_btn").style.visibility="hidden";
 		alert(document.getElementById("play_btn").style.visibility);
 		document.getElementById('test1').style.display = 'block';
-		document.body.classList.add('no_scroll');
+		
 		
 	}
 }
