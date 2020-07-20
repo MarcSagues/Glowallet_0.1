@@ -5,20 +5,15 @@
 }
 
 
+
+
 html {
 	height: 100vh;
 }
 
 body {
 	
-	background: url('../IMG_FE/glowalet_1_ciclista.png') no-repeat center center fixed;
-background-image: center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-width: 100vw;
-height: 100vh;
+	
 
 }
 
@@ -87,6 +82,17 @@ h2{
 	word-spacing: -2px;
 }
 
+h5 {
+
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Titulos';
+	word-spacing: -2px;
+
+
+}
+
 #menu_principal {
 
 	height: 100vh;
@@ -95,7 +101,14 @@ h2{
 	display: flex;
 	flex-direction: column; 
 	justify-content: center;
-
+	background: url('../IMG_FE/glowalet_1_ciclista.png') no-repeat center center fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100vw;
+height: 100vh;
 }
 
 #video_1 {
@@ -138,7 +151,7 @@ h2{
     justify-content: center;
 	align-items: center;
 	text-align: center;
-
+	position: fixed;
 
 	
 	
@@ -167,7 +180,7 @@ h2{
     box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
     cursor: pointer;
     height: 60px;
-   position: absolute;
+   position: fixed;
     right: 25px;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
@@ -209,6 +222,7 @@ h2{
 	width: 2vh;
 	padding: 2%;
 	margin: 0px 50px 0px 0px;
+	position: fixed;
 }
 
 .facebook{
@@ -218,6 +232,7 @@ h2{
 	height: 2vh;
 	float: right;
 	padding: 2%;
+	position: fixed;
 }
 
 .botones_cookies {
@@ -249,7 +264,7 @@ h2{
 }
 
 .cookies {
-	position: absolute;
+	position: fixed;
 	display: flex;
 justify-content: center;
 align-items: center;
@@ -286,6 +301,7 @@ align-items: center;
 }
 
 #aceptar_cookies {
+
 	display: inline-block;
 	width: 100px;
 	border-style: none;
@@ -314,10 +330,11 @@ align-items: center;
 
 	width: 350px;
 
+
 }
 
 #siguenos {
-	position: absolute;
+	position: fixed;
 	float: right;
 	top: 30vh;
 	right: 0.7vw;
@@ -325,7 +342,7 @@ align-items: center;
 }
 
 #cookies_div {
-position: absolute;
+position: fixed;
 background-color: white;
 width: 50%;
 height: 65%;
@@ -453,7 +470,7 @@ input + ul{
 
 #test1{
 
-	position: absolute;
+	position: fixed;
 	display: none;
 	z-index: 8;
 }
@@ -475,6 +492,7 @@ input + ul{
 	margin-left: 30vw;
 margin-bottom: 60vh; 
  box-shadow: 0 0 0 #333132; 
+
 
 
 
