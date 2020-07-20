@@ -137,17 +137,17 @@ function mouseOver1() {
 }
 
 function mouseOver2() {
-
 	var play = document.getElementById("play_btn");
-	play.style.visibility = 'hidden';
+
+	
+	$('#play_btn').addClass('play_back');
+	
 
 
-
-	$('#play_btn').addClass('play_move1');
-
-	play.style.visibility = 'visibility';
+	play.style.visibility = "visible";
 
 	$('#play_btn').addClass('play_move');
+
 
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "hidden";

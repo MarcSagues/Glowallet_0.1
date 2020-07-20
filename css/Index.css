@@ -1,19 +1,12 @@
+/*---------------------- FONTS ------------------------*/
+
 @font-face{
 	font-family: Titulos;
 	src: url("../fonts/dunkin/Dunkin Sans.ttf");
 	font-weight: bold;
 }
 
-
-#todo {
-
-	position: relative;
-	width: 100vw;
-	height: 400vh;
-	top: 0;
-	
-}
-
+/*---------------------- TAGS ------------------------*/
 
 html, body {
 	min-width: 100%;
@@ -61,6 +54,7 @@ a:hover {
 ul{
 
 	list-style-type: none;
+	margin-top: 15%;
 }
 
 
@@ -100,6 +94,8 @@ h5 {
 
 }
 
+/*---------------------- DIV PANTALLA PRINCIPAL ------------------------*/
+
 #menu_principal {
 
 	position: absolute;
@@ -127,7 +123,7 @@ background-size: cover;
 }
 
 
-
+/*---------------------- BACKEND ------------------------*/
 
 #registrarse{
 	float: right;
@@ -148,6 +144,9 @@ background-size: cover;
 
 
 }
+
+
+/*---------------------- MENÚ (CIRCULO) ------------------------*/
 
 
 .circulo {
@@ -198,7 +197,7 @@ background-size: cover;
   	right: 7vh;
   
   
-
+/*---------------------- CIRCULO BLANCO (EN PRINCIPIO NADA) ------------------------*/
 
 } 
 
@@ -222,6 +221,16 @@ background-size: cover;
   	
 }
 
+/*---------------------- REDES ------------------------*/
+
+#siguenos {
+	position: fixed;
+	float: right;
+	top: 30vh;
+	right: 0.7vw;
+	padding: 2%;
+}
+
 
 
 .instagram{
@@ -243,6 +252,8 @@ background-size: cover;
 	padding: 2%;
 	position: fixed;
 }
+
+/*---------------------- COOKIES ------------------------*/
 
 .botones_cookies {
 
@@ -342,13 +353,7 @@ align-items: center;
 
 }
 
-#siguenos {
-	position: fixed;
-	float: right;
-	top: 30vh;
-	right: 0.7vw;
-	padding: 2%;
-}
+
 
 #cookies_div {
 position: fixed;
@@ -402,7 +407,7 @@ align-items: center;
 
 
 
-
+/*---------------------- HAMBURGER ------------------------*/
 
 .hamburger {
     position: relative;
@@ -475,7 +480,7 @@ input + ul{
 	display: none;
 }
 
-
+/*---------------------- LISTA MENÚ ------------------------*/
 
 #test1{
 
@@ -484,11 +489,13 @@ input + ul{
 	z-index: 8;
 }
 
+
+
 .photos {
 	  visibility: hidden; 
   position: absolute;
   float: right;
-  top: -10%; left: 100%;
+  top: 8%; left: 100%;
   border-radius: 50%;
   width: 430px; 
   height:  430px;
@@ -586,14 +593,16 @@ hr {
   	margin-left: 240px;
   
 }
-
+/*---- PLAY ----*/
 
 #play_btn {
 	visibility: hidden;
 	display: flex;
-	transition: all 1.5s ease-in-out;
+	
 	width: 10vh;
-	margin: 0 0 23vh 50vw;
+	height: 10vh;
+	
+	margin: 33vh 0 0 50vw;
 	z-index: 8;
 
 }
@@ -602,8 +611,13 @@ hr {
 }
 
 .play_move {
-
+	transition: all 1.5s ease-in-out;
 	transform: translate(10vw,0);
+}
+.play_back {
+
+	transition: all 0s ease-in-out;
+	transform: translate(0vw,0);
 }
 
 .play_move1 {
