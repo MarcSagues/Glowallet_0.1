@@ -474,14 +474,18 @@ input + ul{
 	margin-left: 30vw;
 margin-bottom: 70vh; 
  box-shadow: 0 0 0 #333132; 
-transition: box-shadow 10s cubic-bezier(.19, 2, .50, 2);
-
+transition: transform 1s;
 
 }
 
-.photos:active {
+.photos_zoom {
 
-	 box-shadow: 0 0 0 130vw #333132, 0 0 0 130vh #333132;
+	transform: scale(6);
+}
+
+.play_desaparece {
+
+	visibility: hidden;
 }
 
 #opcion1{
@@ -564,6 +568,8 @@ hr {
 #play_imagen {
 	width: 10vh;
 }
+
+
 
 
 
