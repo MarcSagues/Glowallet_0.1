@@ -11,8 +11,7 @@ html {
 
 body {
 	
-	background-image: url('../IMG_FE/glowalet_1_ciclista.png');
-	background-image: fixed;
+	background: url('../IMG_FE/glowalet_1_ciclista.png') no-repeat center center fixed;
 background-image: center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
