@@ -254,7 +254,8 @@ h2{
 justify-content: center;
 align-items: center;
 	text-align: center;
-	margin: 75vh 0px 0px 36vw; /*arriba derecha abajo izquierda */
+	margin: 75px 0px 0px 36vw; /*arriba derecha abajo izquierda */
+
 
 
 	width: 370px;
@@ -461,7 +462,7 @@ input + ul{
 	  visibility: hidden; 
   position: absolute;
   float: right;
-  top: -20%; left: 100%;
+  top: -10%; left: 100%;
   border-radius: 50%;
   width: 430px; 
   height:  430px;
@@ -472,14 +473,17 @@ input + ul{
 	font-weight: bold;
 	font-family: "Segoe UI";
 	margin-left: 30vw;
-margin-bottom: 70vh; 
+margin-bottom: 60vh; 
  box-shadow: 0 0 0 #333132; 
-transition: transform 1s;
+
+
 
 }
 
-.photos_zoom {
+.photos_zoom {	
 
+
+	transition: transform 1s;
 	transform: scale(6);
 }
 
@@ -560,8 +564,9 @@ hr {
 #play_btn {
 	visibility: hidden;
 	display: flex;
+	transition: all 1.5s ease-in-out;
 	width: 10vh;
-	margin: 0 0 23vh 60vw;
+	margin: 0 0 23vh 50vw;
 	z-index: 8;
 
 }
@@ -569,7 +574,25 @@ hr {
 	width: 10vh;
 }
 
+.play_move {
 
+	transform: translate(10vw,0);
+}
+
+.play_move1 {
+	visibility: hidden;
+	margin: 0 0 23vh 50vw;
+}
+
+.photo_move {
+	transition: all 1.5s ease-in-out;
+	transform: translate(0,-10vh);
+}
+
+.no_scroll {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
 
 
 
