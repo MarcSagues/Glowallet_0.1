@@ -9,8 +9,7 @@
 /*---------------------- TAGS ------------------------*/
 
 html, body {
-	min-width: 100%;
-    width: auto;
+	width: 100%;
     height: 100vh;
 	margin: 0px;
   	padding: 0px;
@@ -101,8 +100,7 @@ h5 {
 	position: absolute;
 	
 	display: flex;
-	min-width: 100vw;
-    width: auto;
+    width: 100%;
     height: 100vh;
   	text-align: center;
   	margin: 0px;
@@ -125,23 +123,17 @@ background-size: cover;
 
 /*---------------------- BACKEND ------------------------*/
 
-#registrarse{
-	float: right;
-	
-	position: absolute;
-	right: 20vw;
-	top: 6vh;
-}
 
-#entrar{
-	
-	float: right;
-	
-	position: absolute;
-	right: 12vw;
-	top: 6vh;
-  	
 
+#entrar_registrarse{
+
+	position: absolute;
+	float: right;
+	width: auto;
+	height: auto;
+	right: 12%;
+	top: 6%;
+	word-spacing: 0vh;
 
 }
 
