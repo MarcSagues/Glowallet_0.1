@@ -1,7 +1,13 @@
+@font-face{
+	font-family: Titulos;
+	src: url("../fonts/Coco Gothic Bold-trial.ttf");
+	
+}
+
 body {
 	margin: 0;
-	font-family: Arial;
-	font-size: 17px;
+
+	
 }
 
 #video1 {
@@ -40,3 +46,11 @@ position: fixed;
 
 }
 
+#Mercado {
+
+	position: absolute;
+	color: #fafafa;
+	z-index: 40;
+	font-family: "Titulos";
+	font-size: 80px;
+}
