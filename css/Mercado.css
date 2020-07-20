@@ -40,3 +40,12 @@ position: fixed;
 
 }
 
+
+#Mercado {
+
+position: absolute;
+color: #fafafa;
+z-index: 40;
+
+
+}	
