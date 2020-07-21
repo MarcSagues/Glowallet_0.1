@@ -101,7 +101,7 @@ h5 {
 	
 	display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
   	text-align: center;
   	margin: 0px;
   	padding: 0px;
@@ -127,13 +127,14 @@ background-size: cover;
 
 #entrar_registrarse{
 
-	position: absolute;
-	float: right;
+	position: relative;
+
+
 	width: auto;
 	height: auto;
-	right: 12%;
+	left: 75%;
 	top: 6%;
-	word-spacing: 0vh;
+	word-spacing: 10%;
 
 }
 
@@ -143,6 +144,7 @@ background-size: cover;
 
 .circulo {
 	position: relative;
+	display: block;
     width: 15vw;
     height: 20vh;
     display: flex;
@@ -151,7 +153,7 @@ background-size: cover;
     justify-content: center;
 	align-items: center;
 	text-align: center;
-	position: fixed;
+	
 
 	
 	
@@ -227,16 +229,16 @@ background-size: cover;
 
 .instagram{
 
-	display: none;
+
 	position: relative;
 	width: 2vh;
 	padding: 2%;
-	margin: 0px 50px 0px 0px;
+	margin: 10vh 0 0 0;
 	position: fixed;
 }
 
 .facebook{
-	display: none;
+
 	position: absolute;
 	width: 2vh;
 	height: 2vh;
@@ -281,7 +283,7 @@ background-size: cover;
 justify-content: center;
 align-items: center;
 	text-align: center;
-	margin: 75px 0px 0px 36vw; /*arriba derecha abajo izquierda */
+	margin: 92vh 0 0 36vw; /*arriba derecha abajo izquierda */
 
 
 
