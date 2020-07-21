@@ -581,8 +581,8 @@ input + ul{
   float: right;
   top: -10%; left: 25%;
   border-radius: 50%;
-  width: 430px; 
-  height:  430px;
+  width: 40vw; 
+  height:  40vw;
 	display: block;
 	object-fit: cover;
 	color: #a8a9ad;
