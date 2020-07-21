@@ -100,7 +100,8 @@ h5 {
 	position: absolute;
 	
 	display: flex;
-    width: 100%;
+    width: auto;
+    min-width: 100%;
     height: 100%;
   	text-align: center;
   	margin: 0px;
@@ -127,12 +128,12 @@ background-size: cover;
 
 #entrar_registrarse{
 
-	position: relative;
+	position: absolute;
 
 
 	width: auto;
 	height: auto;
-	left: 70%;
+	right: 15%;
 	top: 6%;
 	word-spacing: 2.5vw;
 
@@ -183,12 +184,12 @@ background-size: cover;
     cursor: pointer;
     height: 60px;
    position: fixed;
-    right: 25px;
+    right: 5%;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
     z-index: 2;
-  	top: 2vw;
-  	right: 7vh;
+  	top: 2.5%;
+  	
   
   
 /*---------------------- CIRCULO BLANCO (EN PRINCIPIO NADA) ------------------------*/
@@ -222,7 +223,9 @@ background-size: cover;
 	
 	float: left;
 	display: flex;
-	
+	top: -1vh;
+	width: auto;
+
 	padding: 2%;
 
 	z-index: 6;
@@ -231,6 +234,9 @@ background-size: cover;
 #logo_img {
 
 	object-fit: cover;
+	width: 25%;
+	height: auto;
+
 
 }
 
@@ -254,8 +260,8 @@ background-size: cover;
 	width: 2vh;
 	float: right;
 	top: 25vh;
-	right: 3.7vw;
-	padding: 2%;
+	right: 8%;
+	
 	
 
 }
@@ -657,4 +663,44 @@ hr {
 
 
 
+@media (max-width:360px){
+	#logo{
+		display:none;
+	}
 
+	.cookies{
+		
+	}
+
+	#entrar_registrarse{
+		display: none;
+		
+	}
+}
+
+
+
+
+
+@media (max-width:700px){
+	#logo{
+		display:none;
+	}
+
+	.cookies{
+		
+	}
+
+	#entrar_registrarse{
+		position: absolute;
+
+		overflow: hidden;
+	width: auto;
+	height: auto;
+
+	left: 0%;
+	top: 6%;
+	word-spacing: 2.5vw;
+		
+	}
+}
