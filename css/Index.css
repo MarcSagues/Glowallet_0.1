@@ -584,14 +584,14 @@ input + ul{
   width: 430px; 
   height:  430px;
 	display: block;
-	justify-content: center;
+	object-fit: cover;
 	color: #a8a9ad;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: "Segoe UI";
 	margin-left: 30vw;
 margin-bottom: 60vh; 
- box-shadow: 0 0 0 #333132; 
+
 
 
 
