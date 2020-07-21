@@ -15,9 +15,7 @@
 	font-family: "titulos_video";
 	font-size: 18vh;
 	color: white;
-	max-height: 15%;
-  height: auto;
-  display: flex;
+	max-height: 2px;
 
 }
 
@@ -137,14 +135,7 @@
 
 }
 
-#titulo_info {
 
-  position: absolute;
-  z-index: 100;
-  margin-top: 0;
-  margin-left: 10vw;
-
-}
 /*----------------------  VIDEO MERCADO ------------------------*/
 
 
@@ -198,11 +189,4 @@ width: 100vw;
 
 
 
- #titulo_merca {
 
-  position: absolute;
-  z-index: 2;
-  margin-top: 0;
-  margin-left: 10vw;
-
-}
