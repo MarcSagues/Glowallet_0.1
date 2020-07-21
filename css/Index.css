@@ -26,6 +26,9 @@ html, body {
 	margin: 0px;
   	padding: 0px;
   	overflow-x: hidden;
+  	scroll-snap-type: y mandatory;
+  	 overflow-y: scroll;
+  display: flex;
 
 }
 
@@ -674,6 +677,18 @@ hr {
 	overflow-x: hidden;
 }
 
+
+
+
+
+
+.slide {
+
+  scroll-snap-align: start;
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+}
 
 
 
