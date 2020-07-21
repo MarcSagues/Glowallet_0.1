@@ -579,7 +579,7 @@ input + ul{
 	  visibility: hidden; 
   position: absolute;
   float: right;
-  top: 8%; left: 25%;
+  top: -10%; left: 25%;
   border-radius: 50%;
   width: 430px; 
   height:  430px;
