@@ -47,13 +47,14 @@ a {
 a.botones {
 
 	opacity: 1;
-	display: block;
+	
+	display: flex;
 	font-size: 60px;
 	color: #a8a9ad;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: sans-serif;
-	margin-left: 60%;
+	margin-left: 90%;
 
 
 }
@@ -109,6 +110,19 @@ h5 {
 	word-spacing: -2px;
 
 
+}
+
+
+hr {
+	position: relative;
+	margin-top: 0px;
+	
+ 	height: 16px;
+  	width: 5%;
+  	display: flex;
+  	float: left;
+  	left: 9%;
+  
 }
 
 /*---------------------- DIV PANTALLA PRINCIPAL ------------------------*/
@@ -484,7 +498,10 @@ align-items: center;
 input {
     display: none;
 
+
 }
+
+
 
 input:checked ~ label .menu {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
@@ -527,6 +544,8 @@ input + ul{
 
 	position: fixed;
 	display: none;
+	width: 100%;
+	height: 100%;
 	z-index: 8;
 }
 
@@ -536,7 +555,7 @@ input + ul{
 	  visibility: hidden; 
   position: absolute;
   float: right;
-  top: 8%; left: 100%;
+  top: 8%; left: 25%;
   border-radius: 50%;
   width: 430px; 
   height:  430px;
@@ -571,6 +590,9 @@ margin-bottom: 60vh;
 
 	
 	visibility: visible;
+	width: auto;
+	max-width: 10%;
+
 }
 
 #opcion1:hover + #barra1{
@@ -592,6 +614,8 @@ margin-bottom: 60vh;
 #opcion2{
 
 	visibility: visible;
+	width: auto;
+	max-width: 10%;
 }
 
 #opcion2:hover + #barra2 {
@@ -610,6 +634,8 @@ margin-bottom: 60vh;
 #opcion3{
 
 	visibility: visible;
+	width: auto;
+	max-width: 10%;
 }
 
 #opcion3:hover + #barra3 {
@@ -625,15 +651,6 @@ margin-bottom: 60vh;
 }
 
 
-hr {
-	margin: auto;
-	margin-top: 0px;
-	margin-left: 0px ;
- 	height: 16px;
-  	width: 10%;
-  	margin-left: 240px;
-  
-}
 /*---- PLAY ----*/
 
 #play_btn {
@@ -689,6 +706,10 @@ hr {
   height: 100vh;
   display: flex;
 }
+
+.photos > img { display: none; }
+.photos.expanded > img { display: block; }
+
 
 
 

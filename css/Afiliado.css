@@ -3,8 +3,8 @@
 
 
 #boton {
-
-	outline: none;
+	position: fixed;
+	outline: none;	
 	border-width: 0;
 	background-color: transparent;
 	cursor: pointer;
@@ -63,20 +63,21 @@
 
 #play {
 
-	position: absolute;
+	position: fixed;
 	width: 8vw;
 	height: auto;
 
    top: 50%;
    left: 54vw;
    transform: translate(-50%,-50%);
+
    }
 
 
    #titulo_afi {
 
 	position: absolute;
-	z-index: 8;
+	z-index: 2;
 	margin-top: 0;
 	margin-left: 10vw;
 
