@@ -26,6 +26,9 @@ html, body {
 	margin: 0px;
   	padding: 0px;
   	overflow-x: hidden;
+  	scroll-snap-type: y mandatory;
+  	 overflow-y: scroll;
+  display: flex;
 
 }
 
@@ -44,13 +47,14 @@ a {
 a.botones {
 
 	opacity: 1;
-	display: block;
+	
+	display: flex;
 	font-size: 60px;
 	color: #a8a9ad;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: sans-serif;
-	margin-left: 60%;
+	margin-left: 90%;
 
 
 }
@@ -108,6 +112,19 @@ h5 {
 
 }
 
+
+hr {
+	position: relative;
+	margin-top: 0px;
+	
+ 	height: 16px;
+  	width: 5%;
+  	display: flex;
+  	float: left;
+  	left: 9%;
+  
+}
+
 /*---------------------- DIV PANTALLA PRINCIPAL ------------------------*/
 
 #menu_principal {
@@ -115,7 +132,8 @@ h5 {
 	position: absolute;
 	
 	display: flex;
-    width: 100%;
+    width: auto;
+    min-width: 100%;
     height: 100%;
   	text-align: center;
   	margin: 0px;
@@ -143,12 +161,14 @@ background-size: cover;
 
 #entrar_registrarse{
 
-	position: relative;
+	position: absolute;
 
 
 	width: auto;
-	height: 5%;
-	left: 70%;
+
+	height: auto;
+	right: 15%;
+
 	top: 6%;
 	word-spacing: 2.5vw;
 
@@ -199,12 +219,12 @@ background-size: cover;
     cursor: pointer;
     height: 60px;
    position: fixed;
-    right: 25px;
+    right: 5%;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
     z-index: 2;
-  	top: 2vw;
-  	right: 7vh;
+  	top: 2.5%;
+  	
   
   
 /*---------------------- CIRCULO BLANCO (EN PRINCIPIO NADA) ------------------------*/
@@ -239,8 +259,9 @@ background-size: cover;
 	float: left;
 	display: flex;
 	top: -1vh;
-	max-height: 25%;
-	
+
+	width: auto;
+
 	padding: 2%;
 
 	z-index: 6;
@@ -251,6 +272,9 @@ background-size: cover;
 	height: 25%;
 
 	object-fit: cover;
+	width: 25%;
+	height: auto;
+
 
 }
 
@@ -258,36 +282,53 @@ background-size: cover;
 /*---------------------- REDES ------------------------*/
 
 #siguenos {
-	position: fixed;
-	float: right;
-	top: 40vh;
-	right: 1.45vw;
-	padding: 2%;
+
+	position: absolute;
+	margin: 0 0 0 0;
+	bottom: 0%;
+	width: 120px;
+	top: 50%;
+	height: 11%;
+	
+
 }
 
+#bloque_derecha {
+
+	position: fixed;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	right: 5%;
+	height: 40%;
+	width:4%;
+}
 
 
 .instagram{
 
 
-	position: fixed;
-	width: 2vh;
-	float: right;
-	top: 25vh;
-	right: 3.7vw;
-	padding: 2%;
+	position: absolute;
+	top: 0px;
+	
+
+
+	
 	
 
 }
 
 .facebook{
 
-	position: fixed;
-	width: 2vh;
-	float: right;
-	top: 31vh;
-	right: 3.7vw;
-	padding: 2%;
+	position: absolute;
+	top: 20%;
+	
+
+	
+	
+	
 }
 
 /*---------------------- COOKIES ------------------------*/
@@ -481,7 +522,10 @@ align-items: center;
 input {
     display: none;
 
+
 }
+
+
 
 input:checked ~ label .menu {
     box-shadow: 0 0 0 130vw #FFF, 0 0 0 130vh #FFF;
@@ -524,6 +568,8 @@ input + ul{
 
 	position: fixed;
 	display: none;
+	width: 100%;
+	height: 100%;
 	z-index: 8;
 }
 
@@ -533,19 +579,19 @@ input + ul{
 	  visibility: hidden; 
   position: absolute;
   float: right;
-  top: 8%; left: 100%;
+  top: -10%; left: 25%;
   border-radius: 50%;
   width: 430px; 
   height:  430px;
 	display: block;
-	justify-content: center;
+	object-fit: cover;
 	color: #a8a9ad;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: "Segoe UI";
 	margin-left: 30vw;
 margin-bottom: 60vh; 
- box-shadow: 0 0 0 #333132; 
+
 
 
 
@@ -568,6 +614,9 @@ margin-bottom: 60vh;
 
 	
 	visibility: visible;
+	width: auto;
+	max-width: 10%;
+
 }
 
 #opcion1:hover + #barra1{
@@ -589,6 +638,8 @@ margin-bottom: 60vh;
 #opcion2{
 
 	visibility: visible;
+	width: auto;
+	max-width: 10%;
 }
 
 #opcion2:hover + #barra2 {
@@ -607,6 +658,8 @@ margin-bottom: 60vh;
 #opcion3{
 
 	visibility: visible;
+	width: auto;
+	max-width: 10%;
 }
 
 #opcion3:hover + #barra3 {
@@ -622,15 +675,6 @@ margin-bottom: 60vh;
 }
 
 
-hr {
-	margin: auto;
-	margin-top: 0px;
-	margin-left: 0px ;
- 	height: 16px;
-  	width: 10%;
-  	margin-left: 240px;
-  
-}
 /*---- PLAY ----*/
 
 #play_btn {
@@ -673,6 +717,86 @@ hr {
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
+
+
+.slide {
+
+  scroll-snap-align: start;
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.photos > img { display: none; }
+.photos.expanded > img { display: block; }
+
+
+
+
+
+@media (max-width:360px){
+	#logo{
+		display:none;
+	}
+
+	.cookies{
+		
+	}
+
+	#entrar_registrarse{
+		display: none;
+		
+	}
+
+	#siguenos {
+
+	display: none;
+
+	}
+}
+
+
+
+
+
+@media (max-width:700px){
+	#logo{
+		display:none;
+	}
+
+	.cookies{
+		
+	}
+
+	#entrar_registrarse{
+		position: absolute;
+
+		overflow: hidden;
+	width: auto;
+	height: auto;
+
+	left: 0%;
+	top: 6%;
+	word-spacing: 2.5vw;
+		
+	}
+
+	#siguenos {
+
+	position: fixed;
+	float: right;
+	top: 40%;
+	right: 3%;
+
+
+	}
+}
+
+@media (max-width:1200px){
+	
+
+}
+
 
 
 
