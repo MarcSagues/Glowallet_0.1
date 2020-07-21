@@ -1,3 +1,7 @@
+
+/*---------------------- ON PAGE LOAD ------------------------*/
+
+
 window.onload= function(){
 
 
@@ -23,7 +27,7 @@ theLink.addEventListener("mouseover", mouseOver);
 theLink.addEventListener("mouseout", mouseOut);
 
 
-
+/*---------------------- MOUSE OUT MENÚ ------------------------*/
 
 
 function mouseOut() {
@@ -57,6 +61,8 @@ function mouseOut2() {
 	$('#play_btn').addClass('play_back');
 
 }
+
+/*---------------------- MOUSE OVER MENÚ ------------------------*/
 
 
 function mouseOver() {
@@ -195,6 +201,8 @@ function mouseOver2() {
 
 }
 
+/*---------------------- MOSTRAR/OCULTAR IMÁGENES ------------------------*/
+
 
 function showImage(){
 	alert(theLink.id);
@@ -221,6 +229,10 @@ function hideImage(){
 		imgs.style.visibility = "hidden";
 	
 }
+
+
+/*---------------------- EFECTO MENÚ ------------------------*/
+
 
 function funcionMenu(){
 	
