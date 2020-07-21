@@ -244,23 +244,47 @@ background-size: cover;
 /*---------------------- REDES ------------------------*/
 
 #siguenos {
-	position: fixed;
-	float: right;
-	top: 40vh;
-	right: 1.7vw;
-	padding: 2%;
+	
+	position: absolute;
+	margin: 0 0 0 0;
+	bottom: 0%;
+	width: 120px;
+	top: 50%;
+	height: 11%;
+	
+
+	
+	
+	
+	
+	
+
+
+	
 }
 
+#bloque_derecha {
+
+	position: fixed;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	right: 5%;
+	height: 40%;
+	width:4%;
+}
 
 
 .instagram{
 
 
-	position: fixed;
-	width: 2vh;
-	float: right;
-	top: 25vh;
-	right: 8%;
+	position: absolute;
+	top: 0px;
+	
+
+
 	
 	
 
@@ -268,12 +292,13 @@ background-size: cover;
 
 .facebook{
 
-	position: fixed;
-	width: 2vh;
-	float: right;
-	top: 31vh;
-	right: 3.7vw;
-	padding: 2%;
+	position: absolute;
+	top: 20%;
+	
+
+	
+	
+	
 }
 
 /*---------------------- COOKIES ------------------------*/
@@ -676,6 +701,12 @@ hr {
 		display: none;
 		
 	}
+
+	#siguenos {
+
+	display: none;
+
+	}
 }
 
 
@@ -703,4 +734,19 @@ hr {
 	word-spacing: 2.5vw;
 		
 	}
+
+	#siguenos {
+
+	position: fixed;
+	float: right;
+	top: 40%;
+	right: 3%;
+
+
+	}
+}
+
+@media (max-width:1200px){
+	
+
 }
