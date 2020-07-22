@@ -277,7 +277,7 @@ background-size: cover;
 	 background-color: #1d1d1c;
 	 border-width: 1px;
 	 border-color:  #1d1d1c;
-	 transition:  box-shadow 1.5s;
+	 transition:  box-shadow 1s;
 	 cursor: pointer;
 
 
@@ -320,26 +320,47 @@ background-size: cover;
 
 .instagram{
 
+	transition:all .9s ease;
 
 	position: absolute;
 	top: 0px;
-	
-
-
-	
-	
+	width: 3vh;
+	height: 3vh;
+	border-radius: 50%;
+		border-width: 3px;
+	border-color: white;
 
 }
 
+.instagram:hover {
+
+		transform:scale(1.25);
+}
+
+
 .facebook{
 
+	transition:all .75s ease;
 	position: absolute;
 	top: 13%;
+	width: 3vh;
+	height: 3vh;
+	border-radius: 50%;
 	
+	
+}
 
-	
-	
-	
+
+.facebook:hover {
+
+	transform:scale(1.25);
+
+}
+
+.redes {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 /*---------------------- COOKIES ------------------------*/
@@ -684,7 +705,7 @@ input + ul{
 	width: 10vh;
 	height: 10vh;
 	
-	position: absolute;
+	position: fixed;
 
 
 	left: 40vw;
@@ -700,7 +721,7 @@ input + ul{
 	width: 10vh;
 	height: 10vh;
 	
-	position: absolute;
+	position: fixed;
 
 
 	left: 50vw;
@@ -716,7 +737,7 @@ input + ul{
 	width: 10vh;
 	height: 10vh;
 	
-	position: absolute;
+	position: fixed;
 
 
 	left: 40vw;
