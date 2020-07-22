@@ -20,6 +20,24 @@ window.onload= function(){
 	}
 }
 
+function obrirTancarMenu(){
+
+
+  if(!document.getElementById('navbar').checked){
+
+    document.getElementById('test1').style.display = 'none';
+    
+  
+  } else  {
+    
+    
+
+    document.getElementById('test1').style.display = 'block';
+    
+  }
+}
+
+
 var theLink = document.querySelectorAll(".photos");
 
 // "Wire" the element's events
@@ -72,6 +90,7 @@ function mouseOver() {
 	var play = document.getElementById("play_btn");
 	play.style.visibility = "visible";
 	$('#play_btn').addClass('play_move');
+	$('#foto1').addClass('foto_onmouseover');
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "visible";
 
