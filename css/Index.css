@@ -334,7 +334,7 @@ background-size: cover;
 
 .botones_cookies {
 
-	font-size: 10px;
+	font-size: 2vh;
 	color: black;
 	text-decoration: none;
 	font-family: 'Titulos';
@@ -392,7 +392,7 @@ align-items: center;
 
 #consultar_cookies {
 	display: inline-block;
-	width: 70px;
+	width: 100px;
 	border-style: none;
 	outline: none;
 	
@@ -412,13 +412,14 @@ align-items: center;
 
 
 #barra_cookies {
-	display: flex;
-	font-size: 14
-	width: 3px;
-	height: 3px;
-	justify-content: center;
-	align-items: center;
-
+	position: absolute;
+	
+	font-size: 4vh;
+	right: 19%;
+	top: 7%;
+	
+	
+	margin: 0 0 0 0;
 
 	
 
@@ -426,8 +427,10 @@ align-items: center;
 
 #politica_cookies{
 
+	
 	width: 350px;
-
+	font-family: titulos_video;
+	font-size: 2vh;
 
 }
 
@@ -743,9 +746,7 @@ margin-bottom: 60vh;
 		display:none;
 	}
 
-	.cookies{
-		
-	}
+
 
 	#entrar_registrarse{
 		display: none;
@@ -757,20 +758,39 @@ margin-bottom: 60vh;
 	display: none;
 
 	}
+	
 }
 
 
 
 
 
-@media (max-width:700px){
-	#logo{
-		display:none;
-	}
+@media (max-width:700px) and (min-width: 361px){
+	
 
 	.cookies{
-		
+
+		bottom: 3%;
+		left: 20%;
+		width: 60%;
+		height: 3%;
+
 	}
+
+	.botones_cookies {
+	
+		
+
+	}
+
+
+	#logo{
+
+	display: none;
+}
+	
+
+
 
 	#entrar_registrarse{
 		position: absolute;
@@ -794,35 +814,26 @@ margin-bottom: 60vh;
 
 
 	}
+
+
+	
+
 }
 
-@media (max-width:1200px){
+@media (max-width:1200px) and (min-width: 701px){
 
 	.cookies {
 
-		position: fixed;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
+		
 	
 		bottom: 3%;
-		left: 25%;
+		left: 30%;
 
 
 		width: 40%;
 		height: 3%;
 
-		background: white;
 		
-		
-
-	 	border-radius: 7px;
-	 	padding:1%;
-	 	border-style: solid;
-		border-width: 1px;
-		border-color: black;
-
 
 
 	}
