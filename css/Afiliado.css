@@ -13,9 +13,14 @@
 .titulos_video {
 
 	font-family: "titulos_video";
-	font-size: 18vh;
+	font-size: 12vh;
 	color: white;
 	max-height: 2px;
+  margin: 0 0 0 0;ç
+  text-align: center;
+justify-content: center;
+align-items: center;
+vertical-align: top;
 
 }
 
@@ -77,8 +82,11 @@
 
 	position: absolute;
 	z-index: 2;
-	margin-top: 0;
+	top: 0;
 	margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
 
 
 }
@@ -135,6 +143,18 @@
 
 }
 
+  #titulo_info {
+
+ 
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
+}
+
 
 /*----------------------  VIDEO MERCADO ------------------------*/
 
@@ -186,7 +206,17 @@ width: 100vw;
 	left: 50vw;
 
 }
+  #titulo_merca {
 
+ 
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
+}
 
 
 

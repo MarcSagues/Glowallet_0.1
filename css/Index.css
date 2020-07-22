@@ -169,7 +169,7 @@ background-size: cover;
 	height: auto;
 	right: 15%;
 
-	top: 6%;
+	top: 7.9%;
 	word-spacing: 2.5vw;
 
 }
@@ -223,7 +223,7 @@ background-size: cover;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
     z-index: 2;
-  	top: 2.5%;
+  	top: 5.5%;
   	
   
   
@@ -258,7 +258,7 @@ background-size: cover;
 	
 	float: left;
 	display: flex;
-	top: -1vh;
+	top: 0%;
 
 	width: auto;
 
@@ -268,14 +268,25 @@ background-size: cover;
 }
 
 #logo_img {
-	width: 25%;
-	height: 25%;
+	
 
 	object-fit: cover;
 	width: 25%;
 	height: auto;
+	 border-radius: 50%;
+	 background-color: #1d1d1c;
+	 border-width: 1px;
+	 border-color:  #1d1d1c;
+	 transition:  box-shadow 1s;
+	 cursor: pointer;
 
 
+}
+
+#logo_img:hover {
+
+	box-shadow: 0 0 0 5px #1d1d1c, 0 0 0 5px #1d1d1c;
+	
 }
 
 
@@ -287,8 +298,8 @@ background-size: cover;
 	margin: 0 0 0 0;
 	bottom: 0%;
 	width: 120px;
-	top: 50%;
-	height: 11%;
+	top: 37%;
+	height: 5%;
 	
 
 }
@@ -300,8 +311,8 @@ background-size: cover;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	top: 50%;
-	right: 5%;
+	top: 25%;
+	right: 4.5%;
 	height: 40%;
 	width:4%;
 }
@@ -309,26 +320,47 @@ background-size: cover;
 
 .instagram{
 
+	transition:all .9s ease;
 
 	position: absolute;
 	top: 0px;
-	
-
-
-	
-	
+	width: 3vh;
+	height: 3vh;
+	border-radius: 50%;
+		border-width: 3px;
+	border-color: white;
 
 }
 
+.instagram:hover {
+
+		transform:scale(1.25);
+}
+
+
 .facebook{
 
+	transition:all .75s ease;
 	position: absolute;
-	top: 20%;
+	top: 13%;
+	width: 3vh;
+	height: 3vh;
+	border-radius: 50%;
 	
+	
+}
 
-	
-	
-	
+
+.facebook:hover {
+
+	transform:scale(1.25);
+
+}
+
+.redes {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 /*---------------------- COOKIES ------------------------*/
@@ -578,19 +610,14 @@ input + ul{
 .photos {
 	  visibility: hidden; 
   position: absolute;
-  float: right;
-  top: -10%; left: 25%;
+
+  top: 0%; left: 50%;
   border-radius: 50%;
-  width: 430px; 
-  height:  430px;
+  width: 40vw; 
+  height:  40vw;
 	display: block;
 	object-fit: cover;
-	color: #a8a9ad;
-	text-decoration: none;
-	font-weight: bold;
-	font-family: "Segoe UI";
-	margin-left: 30vw;
-margin-bottom: 60vh; 
+	
 
 
 
@@ -598,12 +625,7 @@ margin-bottom: 60vh;
 
 }
 
-.photos_zoom {	
 
-
-	transition: transform 1s;
-	transform: scale(6);
-}
 
 .play_desaparece {
 
@@ -679,17 +701,61 @@ margin-bottom: 60vh;
 
 #play_btn {
 	visibility: hidden;
-	display: flex;
-	
+	display: none;
 	width: 10vh;
 	height: 10vh;
 	
-	margin: 33vh 0 0 50vw;
+	position: fixed;
+
+
+	left: 40vw;
+	top: 30vh;
+
 	z-index: 8;
 
 }
-#play_imagen {
+
+#play_btn2 {
+	visibility: hidden;
+	display: none;
 	width: 10vh;
+	height: 10vh;
+	
+	position: fixed;
+
+
+	left: 50vw;
+	top: 30vh;
+
+	z-index: 8;
+
+}
+
+#play_btn3 {
+	visibility: hidden;
+	display: none;
+	width: 10vh;
+	height: 10vh;
+	
+	position: fixed;
+
+
+	left: 40vw;
+	top: 30vh;
+
+	z-index: 8;
+
+}
+
+
+
+
+.play_imagen {
+	
+	
+	width: 10vh;
+
+
 }
 
 .play_move {
@@ -732,6 +798,10 @@ margin-bottom: 60vh;
 
 
 
+
+
+
+/*---- MEDIA QUERIS ----*/
 
 
 @media (max-width:360px){
