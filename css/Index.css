@@ -219,11 +219,11 @@ background-size: cover;
     cursor: pointer;
     height: 60px;
    position: fixed;
-    right: 5%;
+    right: 3%;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
     z-index: 2;
-  	top: 2.5%;
+  	top: 4%;
   	
   
   
@@ -258,7 +258,7 @@ background-size: cover;
 	
 	float: left;
 	display: flex;
-	top: -1vh;
+	top: 0%;
 
 	width: auto;
 
@@ -288,7 +288,7 @@ background-size: cover;
 	bottom: 0%;
 	width: 120px;
 	top: 50%;
-	height: 11%;
+	height: 5%;
 	
 
 }
@@ -300,8 +300,8 @@ background-size: cover;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	top: 50%;
-	right: 5%;
+	top: 25%;
+	right: 3.5%;
 	height: 40%;
 	width:4%;
 }
@@ -732,6 +732,10 @@ margin-bottom: 60vh;
 
 
 
+
+
+
+/*---- MEDIA QUERIS ----*/
 
 
 @media (max-width:360px){
