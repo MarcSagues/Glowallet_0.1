@@ -273,8 +273,20 @@ background-size: cover;
 	object-fit: cover;
 	width: 25%;
 	height: auto;
+	 border-radius: 50%;
+	 background-color: #1d1d1c;
+	 border-width: 1px;
+	 border-color:  #1d1d1c;
+	 transition:  box-shadow 1.5s;
+	 cursor: pointer;
 
 
+}
+
+#logo_img:hover {
+
+	box-shadow: 0 0 0 5px #1d1d1c, 0 0 0 5px #1d1d1c;
+	
 }
 
 
@@ -577,19 +589,14 @@ input + ul{
 .photos {
 	  visibility: hidden; 
   position: absolute;
-  float: right;
-  top: -10%; left: 25%;
+
+  top: 0%; left: 50%;
   border-radius: 50%;
   width: 40vw; 
   height:  40vw;
 	display: block;
 	object-fit: cover;
-	color: #a8a9ad;
-	text-decoration: none;
-	font-weight: bold;
-	font-family: "Segoe UI";
-	margin-left: 30vw;
-margin-bottom: 60vh; 
+	
 
 
 
@@ -597,12 +604,7 @@ margin-bottom: 60vh;
 
 }
 
-.photos_zoom {	
 
-
-	transition: transform 1s;
-	transform: scale(6);
-}
 
 .play_desaparece {
 
@@ -678,17 +680,61 @@ margin-bottom: 60vh;
 
 #play_btn {
 	visibility: hidden;
-	display: flex;
-	
+	display: none;
 	width: 10vh;
 	height: 10vh;
 	
-	margin: 33vh 0 0 50vw;
+	position: absolute;
+
+
+	left: 40vw;
+	top: 30vh;
+
 	z-index: 8;
 
 }
-#play_imagen {
+
+#play_btn2 {
+	visibility: hidden;
+	display: none;
 	width: 10vh;
+	height: 10vh;
+	
+	position: absolute;
+
+
+	left: 50vw;
+	top: 30vh;
+
+	z-index: 8;
+
+}
+
+#play_btn3 {
+	visibility: hidden;
+	display: none;
+	width: 10vh;
+	height: 10vh;
+	
+	position: absolute;
+
+
+	left: 40vw;
+	top: 30vh;
+
+	z-index: 8;
+
+}
+
+
+
+
+.play_imagen {
+	
+	
+	width: 10vh;
+
+
 }
 
 .play_move {

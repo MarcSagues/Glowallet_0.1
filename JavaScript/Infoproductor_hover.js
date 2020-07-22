@@ -2,23 +2,7 @@
 /*---------------------- ON PAGE LOAD ------------------------*/
 
 
-window.onload= function(){
-
-
-	if(!document.getElementById('navbar').checked){
-
-		
-		document.getElementById('test1').style.display = 'none';
-		
-	
-	} else  {
-		
-
-
-		document.getElementById('test1').style.display = 'block';
-		
-	}
-}
+window.onload= obrirTancarMenu();
 
 function obrirTancarMenu(){
 
@@ -85,12 +69,16 @@ function mouseOut2() {
 
 function mouseOver() {
 
-	$('#play_btn').removeClass('play_back');
-
 	var play = document.getElementById("play_btn");
+	var play2 = document.getElementById("play_btn2");
+	var play3 = document.getElementById("play_btn3");
+
 	play.style.visibility = "visible";
-	$('#play_btn').addClass('play_move');
-	$('#foto1').addClass('foto_onmouseover');
+	play2.style.visibility = "hidden";
+	play3.style.visibility = "hidden";
+	play.style.display = "block";
+	play2.style.display = "none";
+	play3.style.display = "none";
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "visible";
 
@@ -122,19 +110,50 @@ function mouseOver() {
 	var imgs = document.getElementsByTagName("img")[0];
 	imgs.style.visibility = "visible";
 
+  $( "#foto1" ).animate({
+    top: "-10vh",
+
+  }, 700 );
+  $( "#foto2" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+  $( "#foto3" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+  $( "#play_btn" ).animate({
+    left: "52%",
+   visibility: "hidden",
+  }, 700 );
+  $( "#play_btn2" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
+  $( "#play_btn3" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
+  
+
 
 
 }
 function mouseOver1() {
 
-		$('#play_btn').removeClass('play_back');
+		
+	
 
 	var play = document.getElementById("play_btn");
-	play.style.visibility = "visible";
+	var play2 = document.getElementById("play_btn2");
+	var play3 = document.getElementById("play_btn3");
 
-	$('#play_btn').addClass('play_move');
-
-
+	play.style.visibility = "hidden";
+	play2.style.visibility = "visible";
+	play3.style.visibility = "hidden";
+	play.style.display = "none";
+	play2.style.display = "block";
+	play3.style.display = "none";
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "hidden";
 
@@ -165,27 +184,43 @@ function mouseOver1() {
 	var imgs = document.getElementsByTagName("img")[1];
 	imgs.style.visibility = "visible";
 
-
+$( "#foto2" ).animate({
+    top: "-10vh",
+  }, 700 );
+  $( "#foto1" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+  $( "#foto3" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+ $( "#play_btn2" ).animate({
+    left: "52%",
+   visibility: "hidden",
+  }, 700 );
+  $( "#play_btn" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
+  $( "#play_btn3" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
 
 }
 
 function mouseOver2() {
-
-
-	$('#play_btn').removeClass('play_back');
-
 	var play = document.getElementById("play_btn");
+	var play2 = document.getElementById("play_btn2");
+	var play3 = document.getElementById("play_btn3");
 
-	
-	
-
-
-
-	play.style.visibility = "visible";
-
-	$('#play_btn').addClass('play_move');
-
-
+	play.style.visibility = "hidden";
+	play2.style.visibility = "hidden";
+	play3.style.visibility = "visible";
+	play.style.display = "none";
+	play2.style.display = "none";
+	play3.style.display = "block";
 	var barra1 = document.getElementById("barra1");
 	barra1.style.visibility= "hidden";
 
@@ -214,7 +249,29 @@ function mouseOver2() {
  	
 	var imgs = document.getElementsByTagName("img")[2];
 	imgs.style.visibility = "visible";
-	imgs.classList.add('photo_move');
+	$( "#foto3" ).animate({
+    top: "-10vh",
+  }, 700 );
+  $( "#foto2" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+  $( "#foto1" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+   $( "#play_btn3" ).animate({
+    left: "52%",
+   visibility: "hidden",
+  }, 700 );
+  $( "#play_btn2" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
+  $( "#play_btn" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
 
 
 
