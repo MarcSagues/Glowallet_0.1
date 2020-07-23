@@ -112,6 +112,12 @@ h5 {
 
 }
 
+h6 {
+	font-family: 'titulos_video';
+	font-size: 3vh;
+	color: white;
+}
+
 
 hr {
 	position: relative;
@@ -124,6 +130,8 @@ hr {
   	left: 9%;
   
 }
+
+
 
 /*---------------------- DIV PANTALLA PRINCIPAL ------------------------*/
 
@@ -314,6 +322,7 @@ background-size: cover;
 	right: 4.5%;
 	height: 40%;
 	width:4%;
+	z-index: 100;
 }
 
 
@@ -830,7 +839,7 @@ textarea {
   margin-top: -20px;
   text-align: right; }
 
-  
+
 
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
