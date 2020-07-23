@@ -296,11 +296,10 @@ background-size: cover;
 
 	position: absolute;
 	margin: 0 0 0 0;
-	bottom: 0%;
-	width: 120px;
-	top: 37%;
-	height: 5%;
 	
+	height: 1000px;
+
+	width: 1000px;
 
 }
 
@@ -308,8 +307,8 @@ background-size: cover;
 
 	position: fixed;
 	display: flex;
-	text-align: center;
-	justify-content: center;
+	
+	
 	align-items: center;
 	top: 25%;
 	right: 4.5%;
@@ -690,25 +689,20 @@ input + ul{
 
 	}
 
-	.botones_cookies {
-	
-		
-
-	}
-
 
 	#logo{
 
 	display: none;
-}
+
+	}
 	
 
 
 
 	#entrar_registrarse{
-		position: absolute;
 
-		overflow: hidden;
+	position: absolute;
+	overflow: hidden;
 	width: auto;
 	height: auto;
 
@@ -720,10 +714,8 @@ input + ul{
 
 	#siguenos {
 
-	position: fixed;
-	float: right;
-	top: 40%;
-	right: 3%;
+	
+	right: 2%;
 
 
 	}
@@ -735,61 +727,7 @@ input + ul{
 
 @media (max-width:1200px) and (min-width: 701px){
 
-	.cookies {
-
-		
-	
-		bottom: 3%;
-		left: 30%;
-		width: 40%;
-		height: 3%;
-
-	}
-
-
-
-
-	#politica_cookies{
-
-	left: 3%;
-	font-size: 2vh;
-
 }
-
-	#consultar_cookies {
-	
-	font-size: 1.5vh;
-	position: absolute;
-	right: 12%;
-	border-style: none;
-	outline: none;
-	
-}
-
-#aceptar_cookies {
-
-	font-size: 1.5vh;
-	position: absolute;
-	right: 0%;
-	border-style: none;
-	outline: none;
-	
-}
-#barra_cookies {
-	position: absolute;
-	
-	font-size: 4vh;
-	right: 11%;
-	top: 8%;
-	
-	
-	
-	
-
-}
-
-
-
 
 
 
