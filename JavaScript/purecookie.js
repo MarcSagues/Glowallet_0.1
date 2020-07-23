@@ -1,3 +1,7 @@
+
+
+
+
 // --- Config --- //
 var purecookieTitle = "Cookies."; // Title
 var purecookieDesc = "By using this website, you automatically accept that we use cookies."; // Description
@@ -41,6 +45,7 @@ function setCookie(name,value,days) {
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
+
 function getCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
@@ -51,6 +56,7 @@ function getCookie(name) {
     }
     return null;
 }
+
 function eraseCookie(name) {   
     document.cookie = name+'=; Max-Age=-99999999;';  
 }
