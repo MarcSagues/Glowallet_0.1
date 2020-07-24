@@ -277,6 +277,18 @@ function mouseOver2() {
 
 }
 
+function mouseClick1() {
+	$('#foto1').click();
+}
+
+function mouseClick2(){
+	$('#foto2').click();
+}
+
+function mouseClick3(){
+	$('#foto3').click();
+}
+
 /*---------------------- MOSTRAR/OCULTAR IMÁGENES ------------------------*/
 
 
@@ -322,6 +334,7 @@ function funcionMenu(){
 		document.body.classList.remove('no_scroll');
 
 		document.getElementById("play_btn").style.visibility="hidden";
+		notSelected();
 		
 	
 	} else  {
@@ -330,10 +343,88 @@ function funcionMenu(){
 		document.getElementById("play_btn").style.visibility="hidden";
 		alert(document.getElementById("play_btn").style.visibility);
 		document.getElementById('test1').style.display = 'block';
+		notSelected();
 		
 		
 	}
 }
+
+
+function notSelected(){
+
+	var play = document.getElementById("play_btn");
+	var play2 = document.getElementById("play_btn2");
+	var play3 = document.getElementById("play_btn3");
+
+	play.style.visibility = "hidden";
+	play2.style.visibility = "hidden";
+	play3.style.visibility = "hidden";
+	play.style.display = "none";
+	play2.style.display = "none";
+	play3.style.display = "none";
+	var barra1 = document.getElementById("barra1");
+	barra1.style.visibility= "hidden";
+
+	var barra2 = document.getElementById("barra2");
+	barra2.style.visibility= "hidden";
+
+	var barra3 = document.getElementById("barra3");
+	barra3.style.visibility= "hidden";
+
+
+
+	var afi = document.getElementById("afi");
+	afi.style.color= "#a8a9ad";
+
+	var info = document.getElementById("info");
+	info.style.color= "#a8a9ad";
+
+	var merca = document.getElementById("merca");
+	merca.style.color= "#a8a9ad";
+
+
+	var imgs = document.getElementsByTagName("img")[1];
+	
+		imgs.style.visibility = "hidden";
+		var imgs = document.getElementsByTagName("img")[2];
+	
+		imgs.style.visibility = "hidden";
+ 	
+	var imgs = document.getElementsByTagName("img")[0];
+	imgs.style.visibility = "hidden";
+
+  $( "#foto1" ).animate({
+    top: "10vh",
+
+  }, 700 );
+  $( "#foto2" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+  $( "#foto3" ).animate({
+    top: "10vh",
+    visibility: "hidden",
+  }, 1 );
+  $( "#play_btn" ).animate({
+    left: "40vw",
+   visibility: "hidden",
+  }, 700 );
+  $( "#play_btn2" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
+  $( "#play_btn3" ).animate({
+    left: "40vw",
+    visibility: "hidden",
+  }, 1);
+  
+
+
+
+
+}
+
+
 
 
 
