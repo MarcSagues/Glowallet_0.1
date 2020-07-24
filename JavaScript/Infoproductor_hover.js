@@ -277,6 +277,18 @@ function mouseOver2() {
 
 }
 
+function mouseClick1() {
+	$('#foto1').click();
+}
+
+function mouseClick2(){
+	$('#foto2').click();
+}
+
+function mouseClick3(){
+	$('#foto3').click();
+}
+
 /*---------------------- MOSTRAR/OCULTAR IMÁGENES ------------------------*/
 
 
@@ -411,6 +423,9 @@ function notSelected(){
 
 
 }
+
+
+
 
 
 

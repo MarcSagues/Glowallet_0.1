@@ -306,7 +306,8 @@ background-size: cover;
 	margin: 0 0 0 0;
 	width: 10vw;
 	top: 15vh;
-	left: -100%;
+	
+	left: -106%;
 
 }
 
@@ -318,7 +319,7 @@ background-size: cover;
 	
 	align-items: center;
 	top: 25%;
-	right: 4.5%;
+	right: 0.5%;
 	height: 4%;
 	max-height: 4%;
 	width:4%;
