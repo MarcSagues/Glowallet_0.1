@@ -112,6 +112,12 @@ h5 {
 
 }
 
+h6 {
+	font-family: 'titulos_video';
+	font-size: 3vh;
+	color: white;
+}
+
 
 hr {
 	position: relative;
@@ -124,6 +130,8 @@ hr {
   	left: 9%;
   
 }
+
+
 
 /*---------------------- DIV PANTALLA PRINCIPAL ------------------------*/
 
@@ -296,10 +304,9 @@ background-size: cover;
 
 	position: absolute;
 	margin: 0 0 0 0;
-	
-	height: 1000px;
-
-	width: 1000px;
+	width: 10vw;
+	top: 15vh;
+	left: -100%;
 
 }
 
@@ -312,8 +319,10 @@ background-size: cover;
 	align-items: center;
 	top: 25%;
 	right: 4.5%;
-	height: 40%;
+	height: 4%;
+	max-height: 4%;
 	width:4%;
+	z-index: 3;
 }
 
 
@@ -341,7 +350,7 @@ background-size: cover;
 
 	transition:all .75s ease;
 	position: absolute;
-	top: 13%;
+	top: 100%;
 	width: 3vh;
 	height: 3vh;
 	border-radius: 50%;
@@ -830,7 +839,7 @@ textarea {
   margin-top: -20px;
   text-align: right; }
 
-  
+
 
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
