@@ -451,6 +451,10 @@ input#navbar:checked + ul{
 input#navbar + ul{
 	display: none;
 }
+input#navbar:checked + .play_imagen{
+    display: none;
+}
+
 
 /*---------------------- LISTA MENÚ ------------------------*/
 
