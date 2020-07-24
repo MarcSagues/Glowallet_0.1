@@ -83,9 +83,9 @@
 
 			<div id="entrar_registrarse">
 
-				<a id="registrarse" href="Registrarse.html"> REGISTRARTE </a> 
+				<a id="registrarse" > REGISTRARTE </a> 
 			
-				<a id="entrar" class="entrar" href="Entrar.html"> ENTRAR </a>
+				<button id="entrar" onclick="changeToLogin()"> ENTRAR </button>
 			</div>
 				
 				<a href="Afiliado.html" id="play_btn"/><img  class ="play_imagen"src="IMG_FE/play_btn.png"  />
@@ -111,8 +111,7 @@
 
 				</div>
 
-				<!-- Cookies -->
-
+				
 				
 
 
@@ -206,7 +205,9 @@
 				<button id="boton" onclick="miFuncion()"><img id='play3' src='IMG_FE/boton_pause.png'/></button>   
 
 		
-			
+			<!-- COOKIES -->
+
+
 		</div>
 
 		<div id = "cookies-div"> 
@@ -218,12 +219,14 @@
 
 	 </div>
 
+	 	<!-- REGISTRARSE  -->
+
 			<div id="form" class="slide">
 				<div id="form-content">
       
       <ul class="tab-group">
-        <li class="tab active "><a class='tab-a'href="#signup">Registrarse</a></li>
-        <li class="tab"><a class='tab-a'href="#login">Entrar</a></li>
+        <li class="tab active "><a class='tab-a' id="tab_register" href="#signup">Registrarse</a></li>
+        <li class="tab" ><a class='tab-a'id="tab_login"href="#login">Entrar</a></li>
       </ul>
       
       <div class="tab-content">
