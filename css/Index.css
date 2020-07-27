@@ -840,7 +840,14 @@ input, textarea {
    }
 
 
- 
+ 	#checkbox {
+
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 2%;
+ 	height: 2%;
+
+ 	}
 
 
 textarea {
