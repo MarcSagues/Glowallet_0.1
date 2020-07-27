@@ -3,11 +3,43 @@
 
 
 #boton {
-	position: fixed;
+	position: absolute;
+	display: flex;
+	text-align: center;
 	outline: none;	
 	border-width: 0;
 	background-color: transparent;
+	width: 7vw;
 	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
+}
+
+#boton2 {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	outline: none;	
+	border-width: 0;
+	background-color: transparent;
+	width: 7vw;
+	cursor: pointer;
+	left: 47.2vw;
+	top: -51vh;
+	
+}
+
+#boton3 {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	outline: none;	
+	border-width: 0;
+	background-color: transparent;
+	width: 7vw;
+	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
 }
 
 .titulos_video {
@@ -16,7 +48,7 @@
 	font-size: 12vh;
 	color: white;
 	max-height: 2px;
-  margin: 0 0 0 0;ç
+  margin: 0 0 0 0;
   text-align: center;
 justify-content: center;
 align-items: center;
@@ -66,13 +98,12 @@ vertical-align: top;
 }
 
 #play {
-
-	position: fixed;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
 
-   top: 50%;
-   left: 54vw;
+ 	z-index: 100;
    transform: translate(-50%,-50%);
 
    }
@@ -159,12 +190,13 @@ vertical-align: top;
 
 #play2 {
 
-	position: absolute;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
-	vertical-align: top;
-	top:244vh;
-	left: 50vw;
+
+ 	z-index: 100;
+   transform: translate(-50%,-50%);
 
 }
 
@@ -249,13 +281,13 @@ width: 100vw;
 }
 
 #play3 {
-
-	position: absolute;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
-	vertical-align: top;
-	top:42vh;
-	left: 50vw;
+
+ 
+   transform: translate(-50%,-50%);
 
 }
   #titulo_merca {
@@ -294,6 +326,47 @@ width: 100vw;
           z-index: 3;
 
 }
+
+
+
+#titulo_regis {
+
+ 
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
+}
+
+
+
+#frase4 {
+
+  position: absolute;
+  display: flex;
+   left: 42vw;
+     top: 2.4vh;
+     z-index: 5;
+
+}
+
+#circulo-rojo4 {
+  position: absolute;
+  display: flex;
+  z-index: 3;
+     width: 2.2vh;
+     height: 2.2vh;
+     left: 40.5vw;
+     top: 10.3vh;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: red;
+}
+
 
 
 
