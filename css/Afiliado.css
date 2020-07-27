@@ -15,6 +15,33 @@
 	top: 48.2vh;
 }
 
+#boton2 {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	outline: none;	
+	border-width: 0;
+	background-color: transparent;
+	width: 7vw;
+	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
+	
+}
+
+#boton3 {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	outline: none;	
+	border-width: 0;
+	background-color: transparent;
+	width: 7vw;
+	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
+}
+
 .titulos_video {
 
 	font-family: "titulos_video";
@@ -163,12 +190,13 @@ vertical-align: top;
 
 #play2 {
 
-	position: absolute;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
-	vertical-align: top;
-	top:244vh;
-	left: 50vw;
+
+ 
+   transform: translate(-50%,-50%);
 
 }
 
@@ -253,13 +281,13 @@ width: 100vw;
 }
 
 #play3 {
-
-	position: absolute;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
-	vertical-align: top;
-	top:42vh;
-	left: 50vw;
+
+ 
+   transform: translate(-50%,-50%);
 
 }
   #titulo_merca {
