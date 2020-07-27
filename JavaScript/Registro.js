@@ -39,6 +39,13 @@ $('.tab a').on('click', function (e) {
   $(this).parent().siblings().removeClass('active');
   
   target = $(this).attr('href');
+ 
+
+  if($(this).attr('id') == 'tab_login'){
+    document.getElementById('form-content').style.height = '40vh';
+  } else {
+    document.getElementById('form-content').style.height = '60vh';
+  }
 
   if ($(this).attr('id') == 'tab_login') {
     document.getElementById('form-content').style.height = '40vh';

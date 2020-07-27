@@ -476,7 +476,7 @@ input#navbar + ul{
 	display: block;
 	object-fit: cover;
 	
-
+	cursor: pointer;
 
 
 
@@ -921,6 +921,59 @@ textarea {
 .forgot {
   margin-top: -20px;
   text-align: right; }
+
+
+
+
+
+
+
+.verticalLine {
+position: fixed;
+
+left: 4.5vw;
+
+  border-left: thick solid white;
+  height: 5%;
+  width: 0%;
+  font-size: 1px;
+  border-radius: 20%;
+  cursor: pointer;
+
+}
+
+.verticalLine:hover {
+	box-shadow: 0 0 0 1px white, 0 0 0 1px white;
+}
+
+#line1{
+	top: 30vh;
+	opacity: 1;
+}
+#line2{
+	top: 38vh;
+	opacity: 0.5;
+}
+#line3{
+	top: 46vh;
+	opacity: 0.5;
+}
+#line4{
+	top: 54vh;
+	opacity: 0.5;
+}
+#line5{
+	top: 62vh;
+	opacity: 0.5;
+}
+
+#pantalla_completa div{
+	top: 100vh;
+ }
+
+ .white {
+ 	opacity: 1;
+ }
 
 
 
