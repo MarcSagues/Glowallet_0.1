@@ -230,7 +230,7 @@ background-size: cover;
     right: 5%;
     transition: box-shadow 2.5s cubic-bezier(.19, 1, .22, 1);
     width: 60px;
-    z-index: 4;
+    z-index: 2;
   	top: 5.5%;
   	
   
@@ -306,8 +306,7 @@ background-size: cover;
 	margin: 0 0 0 0;
 	width: 10vw;
 	top: 15vh;
-	
-	left: -106%;
+	left: -100%;
 
 }
 
@@ -319,7 +318,7 @@ background-size: cover;
 	
 	align-items: center;
 	top: 25%;
-	right: 0.5%;
+	right: 4.5%;
 	height: 4%;
 	max-height: 4%;
 	width:4%;
@@ -452,10 +451,6 @@ input#navbar:checked + ul{
 input#navbar + ul{
 	display: none;
 }
-input#navbar:checked + .play_imagen{
-    display: none;
-}
-
 
 /*---------------------- LISTA MENÚ ------------------------*/
 
@@ -792,7 +787,7 @@ input, textarea {
   border-radius: 10px;
   transition: border-color .25s ease, box-shadow .25s ease; }
   .input_form:focus, textarea:focus {
-    out: 0;
+    outline: 0;
     border-color: #ff6666; }
 
    #correo {
@@ -828,6 +823,25 @@ input, textarea {
 	left: 0%;
 		
    }
+
+    #tta {
+   	position: absolute;
+   	top: 20%;
+   	left: 10%;
+
+   }
+
+   #tt {
+
+   	position: absolute;
+   	top: 35%;
+   	left: 10%;
+
+   }
+
+
+ 
+
 
 textarea {
   border: 2px solid #a0b3b0;
@@ -882,55 +896,6 @@ textarea {
 
 
 
-
-
-
-.verticalLine {
-position: fixed;
-
-left: 4.5vw;
-
-  border-left: thick solid white;
-  height: 5%;
-  width: 0%;
-  font-size: 1px;
-  border-radius: 20%;
-  cursor: pointer;
-
-}
-
-.verticalLine:hover {
-	box-shadow: 0 0 0 1px white, 0 0 0 1px white;
-}
-
-#line1{
-	top: 30vh;
-	opacity: 1;
-}
-#line2{
-	top: 38vh;
-	opacity: 0.5;
-}
-#line3{
-	top: 46vh;
-	opacity: 0.5;
-}
-#line4{
-	top: 54vh;
-	opacity: 0.5;
-}
-#line5{
-	top: 62vh;
-	opacity: 0.5;
-}
-
-#pantalla_completa div{
-	top: 100vh;
- }
-
- .white {
- 	opacity: 1;
- }
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
