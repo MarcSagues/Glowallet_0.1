@@ -792,7 +792,7 @@ input, textarea {
   border-radius: 10px;
   transition: border-color .25s ease, box-shadow .25s ease; }
   .input_form:focus, textarea:focus {
-    outline: 0;
+    out: 0;
     border-color: #ff6666; }
 
    #correo {
@@ -896,6 +896,11 @@ left: 4.5vw;
   font-size: 1px;
   border-radius: 20%;
   cursor: pointer;
+
+}
+
+.verticalLine:hover {
+	box-shadow: 0 0 0 1px white, 0 0 0 1px white;
 }
 
 #line1{
