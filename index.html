@@ -13,15 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="css/Infoproductor.css" >
 		<link rel="stylesheet" type="text/css" href="css/Afiliado.css" >
 		<link rel="stylesheet" type="text/css" href="css/purecookie.css" >
-		<link rel="stylesheet" href="slidein.css">
-		
-		
-
-		
-		
-
-
-	
+		<link rel="stylesheet" href="slidein.css">		
 
 
 	</head>
@@ -58,20 +50,20 @@
 
 				
 					
-				<li id="opcion1" class="list"><a class="botones botones_eff" id="afi"  name="opcion1" href="Afiliado.html" onmouseover="mouseOver()" onmouseout="mouseOut()" > Afiliado </a></li>
+				<li id="opcion1" class="list" ><a class="botones botones_eff" id="afi"  name="opcion1" href="#pantalla_completa" onmouseover="mouseOver()" onmouseout="mouseOut()" onclick="mouseClick1()"> Afiliado </a></li>
 				<hr  id="barra1" />
 				<div style="text-align: right" class="photo2"  ><img class="photos"id="foto1" src="IMG_FE/afiliado_gran.png"  /></div>
 				
 					
 				<br><br>
-				<li id="opcion2" class="list"><a id="info" class="botones botones_eff" name="opcion2" href="Infoproductor.html" onmouseover="mouseOver1()" onmouseout="mouseOut1()"> Infoproductor </a></li>
+				<li id="opcion2" class="list"><a id="info" class="botones botones_eff" name="opcion2"  href="#pantalla_completa2" onmouseover="mouseOver1()" onmouseout="mouseOut1()" onclick="mouseClick2()"> Infoproductor </a></li>
 				<hr  id="barra2" /> 
 				<div style="text-align: right" class="photo2"  ><img class="photos" id="foto2" src="IMG_FE/glowalet_infoproductor.png"  /></div>
 				
 				
 
 				<br><br>
-				<li class="opciones3" id="opcion3"class="list"><a  id="merca" class="botones botones_eff" href="Mercado.html" onmouseover="mouseOver2()" onmouseout="mouseOut2()"> Mercado </a></li>
+				<li class="opciones3" id="opcion3"class="list"><a  id="merca" class="botones botones_eff"  href="#pantalla_completa3" onmouseover="mouseOver2()" onmouseout="mouseOut2()" onclick="mouseClick3()"> Mercado </a></li>
 				<hr class="opciones3" id="barra3" style="color: #000000;"/>
 				<div style="text-align: right" class="photo2"  ><img class="photos" id="foto3" src="IMG_FE/mercado.jpg"  /></div>
 				
@@ -83,14 +75,14 @@
 
 			<div id="entrar_registrarse">
 
-				<a id="registrarse" href="Registrarse.html"> REGISTRARTE </a> 
+				<a id="registrarse" href ="#register"> REGISTRARTE </a> 
 			
-				<a id="entrar" class="entrar" href="Entrar.html"> ENTRAR </a>
+				<a id="entrar" href ="#login"> ENTRAR </a>
 			</div>
 				
-				<a href="Afiliado.html" id="play_btn"/><img  class ="play_imagen"src="IMG_FE/play_btn.png"  />
-				<a href="Afiliado.html" id="play_btn2"/><img  class ="play_imagen"src="IMG_FE/play_btn.png"  />
-				<a href="Afiliado.html" id="play_btn3"/><img  class ="play_imagen"src="IMG_FE/play_btn.png"  />
+				<a href="#pantalla_completa"id="play_btn"/><img  onclick="mouseClick1()" class ="play_imagen"src="IMG_FE/play_btn.png"  />
+				<a href="#pantalla_completa2"id="play_btn2"/><img  onclick="mouseClick2()" class ="play_imagen"src="IMG_FE/play_btn.png"  />
+				<a href="#pantalla_completa3"id="play_btn3"/><img  onclick="mouseClick3()" class ="play_imagen"src="IMG_FE/play_btn.png"  />
 
 
 			
@@ -111,10 +103,18 @@
 
 				</div>
 
-				<!-- Cookies -->
-
 				
-
+				<div onclick="scroll1()"id="line1"class="verticalLine">
+				</div>
+				<div onclick="scroll2()"id="line2"class="verticalLine">
+				</div>
+				<div onclick="scroll3()"id="line3"class="verticalLine">
+				</div>
+				<div onclick="scroll4()"id="line4"class="verticalLine">
+				</div>
+				<div onclick="scroll5()"id="line5"class="verticalLine">
+				</div>
+			</div>
 
 
 			<!-- Video Afiliados -->
@@ -206,7 +206,9 @@
 				<button id="boton" onclick="miFuncion()"><img id='play3' src='IMG_FE/boton_pause.png'/></button>   
 
 		
-			
+			<!-- COOKIES -->
+
+
 		</div>
 
 		<div id = "cookies-div"> 
@@ -217,6 +219,8 @@
 		</div>
 
 	 </div>
+
+	 	<!-- REGISTRARSE  -->
 
 			<div id="form" class="slide">
 
@@ -235,8 +239,8 @@
 
       
       <ul class="tab-group">
-        <li class="tab active "><a class='tab-a'href="#signup">Registrarse</a></li>
-        <li class="tab"><a class='tab-a'href="#login">Entrar</a></li>
+        <li class="tab active "><a class='tab-a' id="tab_register" href="#signup">Registrarse</a></li>
+        <li class="tab" ><a class='tab-a'id="tab_login"href="#login">Entrar</a></li>
       </ul>
       
       <div class="tab-content">

@@ -112,6 +112,8 @@ vertical-align: top;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: red;
+          z-index: 3;
+
 }
 
 /*----------------------  VIDEO INFOPRODUCTOR ------------------------*/
@@ -202,6 +204,7 @@ vertical-align: top;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: red;
+     z-index: 3;
 }
 
 
@@ -288,6 +291,8 @@ width: 100vw;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: red;
+          z-index: 3;
+
 }
 
 
