@@ -1,20 +1,5 @@
 
-document.getElementById('play').style.visibility = "hidden";
 
-$('#boton').click(function(){
-
-miFuncion();
-});
-$('#boton2').click(function(){
-var video = document.getElementById("video2");
-var boton = document.getElementById("boton2");
-miFuncion2();
-});
-$('#boton3').click(function(){
-var video = document.getElementById("video3");
-var boton = document.getElementById("boton3");
-miFuncion3();
-});
 
 
 
@@ -158,7 +143,7 @@ var timeout;
 
 
 
-if (video.paused){
+if (document.getElementById('video1').paused || document.getElementById('video2').paused || document.getElementById('video3').paused){
 
 
 	document.onmousemove = function(){

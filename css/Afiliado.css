@@ -24,8 +24,8 @@
 	background-color: transparent;
 	width: 7vw;
 	cursor: pointer;
-	left: 50vw;
-	top: 48.2vh;
+	left: 47.2vw;
+	top: -51vh;
 	
 }
 
@@ -103,7 +103,7 @@ vertical-align: top;
 	width: 7vw;
 	height: auto;
 
- 
+ 	z-index: 100;
    transform: translate(-50%,-50%);
 
    }
@@ -195,7 +195,7 @@ vertical-align: top;
 	width: 7vw;
 	height: auto;
 
- 
+ 	z-index: 100;
    transform: translate(-50%,-50%);
 
 }
