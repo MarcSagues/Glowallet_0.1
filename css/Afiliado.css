@@ -3,11 +3,16 @@
 
 
 #boton {
-	position: fixed;
+	position: absolute;
+	display: flex;
+	text-align: center;
 	outline: none;	
 	border-width: 0;
 	background-color: transparent;
+	width: 7vw;
 	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
 }
 
 .titulos_video {
@@ -16,7 +21,7 @@
 	font-size: 12vh;
 	color: white;
 	max-height: 2px;
-  margin: 0 0 0 0;ç
+  margin: 0 0 0 0;
   text-align: center;
 justify-content: center;
 align-items: center;
@@ -66,13 +71,12 @@ vertical-align: top;
 }
 
 #play {
-
-	position: fixed;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
 
-   top: 50%;
-   left: 54vw;
+ 
    transform: translate(-50%,-50%);
 
    }

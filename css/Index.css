@@ -481,7 +481,7 @@ input#navbar:checked + .play_imagen{
 	display: block;
 	object-fit: cover;
 	
-
+	cursor: pointer;
 
 
 

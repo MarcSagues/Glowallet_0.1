@@ -8,11 +8,15 @@ function aparecePlay() {
 	if(video.paused)  {
 
 		document.getElementById('play').style.visibility = "visible";			
-		document.getElementById('play').src = "IMG_FE/boton_play.png";
+		document.getElementById('play').src = "IMG_FE/boton_play_3.jpg";
+				document.getElementById('play').style.width = "7vw";
+
 	} else {
 
 		document.getElementById('play').style.visibility = "visible";			
-		document.getElementById('play').src = "IMG_FE/boton_pause.png";
+		document.getElementById('play').src = "IMG_FE/pause-2.png";
+				document.getElementById('play').style.width = "4vw";
+
 
 	}
 
@@ -27,14 +31,17 @@ function miFuncion(){
 		video.play();
 		document.getElementById('play').style.visibility = "visible";
 
-		document.getElementById('play').src = "IMG_FE/boton_play.png";
+		document.getElementById('play').src = "IMG_FE/boton_play_3.jpg";
+				document.getElementById('play').style.width = "7vw";
+
 
 			
 					
 	} else {
 		video.pause();
 		document.getElementById('play').style.visibility = "visible";
-		document.getElementById('play').src = 'IMG_FE/boton_play.png';
+		document.getElementById('play').src = 'IMG_FE/boton_play_3.jpg';
+		document.getElementById('play').style.width = "7vw";
 	}
 }
 
@@ -50,7 +57,9 @@ if (video.paused){
      timeout = setTimeout(function(){
      	
      	document.getElementById('play').style.visibility = "hidden";			
-		document.getElementById('play').src = "IMG_FE/boton_pause.png";
+		document.getElementById('play').src = "IMG_FE/pause-2.png";
+				document.getElementById('play').style.width = "4vw";
+
 
 
 }, 2000);
