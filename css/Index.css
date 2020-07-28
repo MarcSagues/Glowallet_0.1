@@ -35,7 +35,7 @@ html, body {
 
 
 
-a:not(.tab-a):not(#politicas):not(#terminos){
+a:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor){
 
 	font-size: 100%;
 	color: white;
@@ -181,6 +181,8 @@ background-size: cover;
 	word-spacing: 2.5vw;
 
 }
+
+
 
 
 /*---------------------- MENÚ (CIRCULO) ------------------------*/
