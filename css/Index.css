@@ -142,7 +142,7 @@ hr {
 #menu_principal {
 
 	position: absolute;
-	
+	visibility: visible;
 	display: flex;
     width: auto;
     min-width: 100%;
