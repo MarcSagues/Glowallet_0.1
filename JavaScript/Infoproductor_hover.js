@@ -334,6 +334,13 @@ function funcionMenu(){
 		document.body.classList.remove('no_scroll');
 
 		document.getElementById("play_btn").style.visibility="hidden";
+
+		
+
+		$( "#test1" ).animate({
+   			opacity: "0",
+  		}, 700);
+		
 		notSelected();
 		
 	
@@ -341,13 +348,22 @@ function funcionMenu(){
 		
 
 		document.getElementById("play_btn").style.visibility="hidden";
-		alert(document.getElementById("play_btn").style.visibility);
 		document.getElementById('test1').style.display = 'block';
-		notSelected();
+
 		
+		$( "#test1" ).animate({
+   			opacity: "1",
+  		}, 700);
+		
+
+		notSelected();
+
 		
 	}
 }
+
+
+
 
 
 function notSelected(){
@@ -396,7 +412,7 @@ function notSelected(){
   $( "#foto1" ).animate({
     top: "10vh",
 
-  }, 700 );
+  }, 1 );
   $( "#foto2" ).animate({
     top: "10vh",
     visibility: "hidden",
@@ -408,7 +424,7 @@ function notSelected(){
   $( "#play_btn" ).animate({
     left: "40vw",
    visibility: "hidden",
-  }, 700 );
+  }, 1 );
   $( "#play_btn2" ).animate({
     left: "40vw",
     visibility: "hidden",

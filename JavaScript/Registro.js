@@ -47,6 +47,20 @@ $('.tab a').on('click', function (e) {
     document.getElementById('form-content').style.height = '60vh';
   }
 
+  if ($(this).attr('id') == 'tab_login') {
+    document.getElementById('form-content').style.height = '40vh';
+    document.getElementById('checkbox').style.visibility = 'hidden';
+    document.getElementById('frase_checkbox').style.visibility = 'hidden';
+
+
+
+  } else {
+
+    document.getElementById('form-content').style.height = '60vh';
+    document.getElementById('checkbox').style.visibility = 'visible';
+    document.getElementById('frase_checkbox').style.visibility = 'visible';
+  }
+
   $('.tab-content > div').not(target).hide();
   
   $(target).fadeIn(600);
