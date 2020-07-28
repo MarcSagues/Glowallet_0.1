@@ -1010,6 +1010,11 @@ left: 4.5vw;
 	display: none;
 
 	}
+
+	.fraseycirculo {
+
+		visibility: hidden;
+	}
 	
 }
 
@@ -1032,7 +1037,7 @@ left: 4.5vw;
 
 	#logo{
 
-	display: none;
+		display: none;
 
 
 	}
@@ -1042,23 +1047,26 @@ left: 4.5vw;
 
 	#entrar_registrarse{
 
-	position: absolute;
-	overflow: hidden;
-	width: auto;
-	height: auto;
+		position: absolute;
+		overflow: hidden;
+		width: auto;
+		height: auto;
 
-	left: 0%;
-	top: 6%;
-	word-spacing: 2.5vw;
+		left: 0%;
+		top: 6%;
+		word-spacing: 2.5vw;
 		
 	}
 
 	#siguenos {
 
-	
-	right: 2%;
+		right: 2%;
 
+	}
 
+	.fraseycirculo {
+
+		visibility: hidden;
 	}
 
 
@@ -1067,6 +1075,12 @@ left: 4.5vw;
 }
 
 @media (max-width:1200px) and (min-width: 701px){
+
+	.fraseycirculo {
+
+		visibility: hidden;
+	}
+
 
 }
 
