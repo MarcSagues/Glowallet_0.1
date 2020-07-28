@@ -44,6 +44,13 @@ a:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor){
 	font-weight: bold;
 
 }
+a:hover:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor){
+
+
+	color: #40C5DF;
+	
+
+}
 a.botones {
 
 	opacity: 1;
@@ -64,10 +71,7 @@ a.list:hover {
 	
 }
 
-a:hover {
 
-	color:#40C5DF;
-}
 
 ul:not(.tab-group){
 
@@ -138,7 +142,7 @@ hr {
 #menu_principal {
 
 	position: absolute;
-	
+	visibility: visible;
 	display: flex;
     width: auto;
     min-width: 100%;

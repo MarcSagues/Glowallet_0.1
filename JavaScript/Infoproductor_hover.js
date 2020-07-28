@@ -335,6 +335,8 @@ function funcionMenu(){
 
 		document.getElementById("play_btn").style.visibility="hidden";
 
+		
+
 		$( "#test1" ).animate({
    			opacity: "0",
   		}, 700);
@@ -347,6 +349,8 @@ function funcionMenu(){
 
 		document.getElementById("play_btn").style.visibility="hidden";
 		document.getElementById('test1').style.display = 'block';
+
+		
 		$( "#test1" ).animate({
    			opacity: "1",
   		}, 700);
