@@ -1081,6 +1081,19 @@ left: 4.5vw;
 		visibility: hidden;
 	}
 
+	#logo_img {
+
+		width: 20%;
+		height: 20%;
+
+	}
+
+	#logo {
+
+		top: 2%;
+	}
+
+	
 
 }
 
