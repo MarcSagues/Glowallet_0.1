@@ -49,21 +49,26 @@
 		<ul id="test1" >
 
 				
-					
+				<transition name="fade">
 				<li id="opcion1" class="list" ><a class="botones botones_eff" id="afi"  name="opcion1" href="#pantalla_completa" onmouseover="mouseOver()" onmouseout="mouseOut()" onclick="mouseClick1()"> Afiliado </a></li>
+			</transition>
 				<hr  id="barra1" />
 				<div style="text-align: right" class="photo2"  ><img class="photos"id="foto1" src="IMG_FE/afiliado_gran.png"  /></div>
 				
 					
 				<br><br>
+				<transition name="fade">
 				<li id="opcion2" class="list"><a id="info" class="botones botones_eff" name="opcion2"  href="#pantalla_completa2" onmouseover="mouseOver1()" onmouseout="mouseOut1()" onclick="mouseClick2()"> Infoproductor </a></li>
+			</transition>
 				<hr  id="barra2" /> 
 				<div style="text-align: right" class="photo2"  ><img class="photos" id="foto2" src="IMG_FE/glowalet_infoproductor.png"  /></div>
 				
 				
 
 				<br><br>
+				<transition name="fade">
 				<li class="opciones3" id="opcion3"class="list"><a  id="merca" class="botones botones_eff"  href="#pantalla_completa3" onmouseover="mouseOver2()" onmouseout="mouseOut2()" onclick="mouseClick3()"> Mercado </a></li>
+			</transition>
 				<hr class="opciones3" id="barra3" style="color: #000000;"/>
 				<div style="text-align: right" class="photo2"  ><img class="photos" id="foto3" src="IMG_FE/mercado.jpg"  /></div>
 				
@@ -123,8 +128,8 @@
 			<div id="pantalla_completa" class="slide">
 
 
-				<span id="circulo-rojo"></span>
-				<h6 id="frase">únete a la revolución del infoproducto</h6>
+				<span id="circulo-rojo" class="fraseycirculo"></span>
+				<h6 id="frase" class="fraseycirculo">únete a la revolución del infoproducto</h6>
 			<div>
 				<div id="titulos_div"> </div>
 
@@ -132,7 +137,7 @@
 			</div>
 
 				<div>
-				<video onmousemove="aparecePlay()"  preload="auto" controls   id="video1">
+				<video onmousemove="aparecePlay()"  onclick="change()" preload="auto" controls   id="video1">
 
 					<source src="IMG_FE/video_afi.mp4" type="video/mp4">
 						Video no disponible
@@ -140,7 +145,7 @@
 				</video>
 			</div>
 	   
-				<button id="boton" onclick="miFuncion()"><img id='play' src='IMG_FE/boton_play_3.jpg'/></button>  
+				<button id="boton" class="play-class"onclick="miFuncion()"><img id='play' src='IMG_FE/boton_play_3.jpg'/></button>  
 
 		
 			
@@ -154,8 +159,8 @@
 
 		<div id="pantalla_completa2" class="slide">
 
-			<span id="circulo-rojo2"></span>
-				<h6 id="frase2">únete a la revolución del infoproducto</h6>
+			<span id="circulo-rojo2" class="fraseycirculo"></span>
+				<h6 id="frase2" class="fraseycirculo">únete a la revolución del infoproducto</h6>
 
 			<div>
 				<div id="titulos_div2"></div>
@@ -172,7 +177,7 @@
 				</video>
 			</div>
 	   
-				<button id="boton2" onclick="miFuncion2()" ><img id='play2' src='IMG_FE/boton_play_3.jpg'/></button>   
+				<button id="boton2" class="play-class"onclick="miFuncion2()" ><img id='play2' src='IMG_FE/boton_play_3.jpg'/></button>   
 
 		
 			
@@ -183,8 +188,8 @@
 
 		<div id="pantalla_completa3" class="slide">
 
-			<span id="circulo-rojo3"></span>
-				<h6 id="frase3">únete a la revolución del infoproducto</h6>
+			<span id="circulo-rojo3" class="fraseycirculo"></span>
+				<h6 id="frase3" class="fraseycirculo">únete a la revolución del infoproducto</h6>
 
 			<div>
 				<div id="titulos_div3">
@@ -203,7 +208,7 @@
 				</video>
 			</div>
 	   
-				<button id="boton3" onclick="miFuncion3()" ><img id='play3' src='IMG_FE/boton_play_3.jpg'/></button>   
+				<button id="boton3" class="play-class"onclick="miFuncion3()" ><img id='play3' src='IMG_FE/boton_play_3.jpg'/></button>   
 
 		
 			<!-- COOKIES -->
@@ -225,8 +230,8 @@
 			<div id="form" class="slide">
 
 
-				<span id="circulo-rojo4"></span>
-				<h6 id="frase4">únete a la revolución del infoproducto</h6>
+				<span id="circulo-rojo4" class="fraseycirculo"></span>
+				<h6 id="frase4" class="fraseycirculo">únete a la revolución del infoproducto</h6>
 
 			<div>
 				<div id="titulos_div4">
