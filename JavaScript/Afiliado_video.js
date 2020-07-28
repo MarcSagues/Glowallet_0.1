@@ -1,6 +1,30 @@
 
 
+function change() {
+var video = document.getElementById("video1");
+var boton = document.getElementById("boton");
 
+	if(video.paused){
+		
+			
+		
+		document.getElementById('play').style.visibility = "visible";
+
+		document.getElementById('play').src = "IMG_FE/pause-2.png";
+		document.getElementById('play').style.width = "4vw";
+
+
+			
+					
+	} else {
+		
+		document.getElementById('play').style.visibility = "visible";
+		document.getElementById('play').src = 'IMG_FE/boton_play_3.jpg';
+		document.getElementById('play').style.width = "7vw";
+	}
+
+
+ }
 
 
 
