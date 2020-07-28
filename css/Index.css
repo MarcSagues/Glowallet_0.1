@@ -273,7 +273,7 @@ background-size: cover;
 	width: auto;
 
 	padding: 2%;
-
+	height: auto;
 	z-index: 6;
 }
 
@@ -282,7 +282,7 @@ background-size: cover;
 
 	object-fit: cover;
 	width: 25%;
-	height: auto;
+	height: 25%;
 	 border-radius: 50%;
 	 background-color: #1d1d1c;
 	 border-width: 1px;
@@ -450,6 +450,7 @@ input#navbar:checked ~ label:not(.label_register) .hamburger:before {
 input#navbar:checked + ul{
     display: block;
 }
+
 input#navbar + ul{
 	display: none;
 }
@@ -485,6 +486,10 @@ input#navbar + ul{
 
 }
 
+.play-class {
+	display: none;
+	z-index: 3;
+}
 
 
 .play_desaparece {
@@ -941,6 +946,7 @@ left: 4.5vw;
   font-size: 1px;
   border-radius: 20%;
   cursor: pointer;
+  transition: all 0.5s;
 
 }
 
@@ -984,9 +990,12 @@ left: 4.5vw;
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 
 
+
+
 @media (max-width:360px){
 	#logo{
 		display:none;
+
 	}
 
 
@@ -1024,6 +1033,7 @@ left: 4.5vw;
 	#logo{
 
 	display: none;
+
 
 	}
 	
