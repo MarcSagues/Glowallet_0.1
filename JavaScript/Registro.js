@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 
-$('.form').find('input, textarea').on('keyup blur focus', function (e) {
+$('#form').find('input, textarea').on('keyup blur focus', function (e) {
   
   var $this = $(this),
       label = $this.prev('label');
@@ -39,6 +39,27 @@ $('.tab a').on('click', function (e) {
   $(this).parent().siblings().removeClass('active');
   
   target = $(this).attr('href');
+ 
+
+  if($(this).attr('id') == 'tab_login'){
+    document.getElementById('form-content').style.height = '40vh';
+  } else {
+    document.getElementById('form-content').style.height = '60vh';
+  }
+
+  if ($(this).attr('id') == 'tab_login') {
+    document.getElementById('form-content').style.height = '40vh';
+    document.getElementById('checkbox').style.visibility = 'hidden';
+    document.getElementById('frase_checkbox').style.visibility = 'hidden';
+
+
+
+  } else {
+
+    document.getElementById('form-content').style.height = '60vh';
+    document.getElementById('checkbox').style.visibility = 'visible';
+    document.getElementById('frase_checkbox').style.visibility = 'visible';
+  }
 
   $('.tab-content > div').not(target).hide();
   
@@ -48,3 +69,9 @@ $('.tab a').on('click', function (e) {
 
 
 });
+
+function changeToLogin(){
+
+   
+
+}

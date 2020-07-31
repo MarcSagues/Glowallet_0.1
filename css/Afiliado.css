@@ -3,19 +3,56 @@
 
 
 #boton {
-	position: fixed;
+	position: absolute;
+	display: flex;
+	text-align: center;
 	outline: none;	
 	border-width: 0;
 	background-color: transparent;
+	width: 7vw;
 	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
+}
+
+#boton2 {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	outline: none;	
+	border-width: 0;
+	background-color: transparent;
+	width: 7vw;
+	cursor: pointer;
+	left: 47.2vw;
+	top: -51vh;
+	
+}
+
+#boton3 {
+	position: absolute;
+	display: flex;
+	text-align: center;
+	outline: none;	
+	border-width: 0;
+	background-color: transparent;
+	width: 7vw;
+	cursor: pointer;
+	left: 50vw;
+	top: 48.2vh;
 }
 
 .titulos_video {
 
 	font-family: "titulos_video";
-	font-size: 18vh;
+	font-size: 12vh;
 	color: white;
 	max-height: 2px;
+  margin: 0 0 0 0;
+  text-align: center;
+justify-content: center;
+align-items: center;
+vertical-align: top;
 
 }
 
@@ -61,13 +98,12 @@
 }
 
 #play {
-
-	position: fixed;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
 
-   top: 50%;
-   left: 54vw;
+ 	z-index: 100;
    transform: translate(-50%,-50%);
 
    }
@@ -77,9 +113,37 @@
 
 	position: absolute;
 	z-index: 2;
-	margin-top: 0;
+	top: 0;
 	margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
 
+
+}
+
+#frase {
+
+	position: absolute;
+	display: flex;
+	 left: 34vw;
+     top: 2.4vh;
+     z-index: 5;
+
+}
+#circulo-rojo {
+	position: absolute;
+	display: flex;
+	z-index: 3;
+     width: 2.2vh;
+     height: 2.2vh;
+     left: 32.5vw;
+     top: 10.3vh;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: red;
+          z-index: 3;
 
 }
 
@@ -126,13 +190,53 @@
 
 #play2 {
 
-	position: absolute;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
-	vertical-align: top;
-	top:244vh;
-	left: 50vw;
 
+ 	z-index: 100;
+   transform: translate(-50%,-50%);
+
+}
+
+  #titulo_info {
+
+ 
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
+}
+
+
+
+#frase2 {
+
+	position: absolute;
+	display: flex;
+	 left: 52vw;
+     top: 2.4vh;
+     z-index: 5;
+
+}
+
+#circulo-rojo2 {
+	position: absolute;
+	display: flex;
+	z-index: 3;
+     width: 2.2vh;
+     height: 2.2vh;
+     left: 50.5vw;
+     top: 10.3vh;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: red;
+     z-index: 3;
 }
 
 
@@ -177,15 +281,153 @@ width: 100vw;
 }
 
 #play3 {
-
-	position: absolute;
-	width: 8vw;
+	display: flex;
+	text-align: center;
+	width: 7vw;
 	height: auto;
-	vertical-align: top;
-	top:42vh;
-	left: 50vw;
+
+ 
+   transform: translate(-50%,-50%);
 
 }
+  #titulo_merca {
+
+ 
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
+}
+
+#frase3 {
+
+	position: absolute;
+	display: flex;
+	 left: 37.4vw;
+     top: 2.4vh;
+     z-index: 5;
+
+}
+#circulo-rojo3 {
+	position: absolute;
+	display: flex;
+	z-index: 3;
+     width: 2.2vh;
+     height: 2.2vh;
+     left: 35.8vw;
+     top: 10.3vh;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: red;
+          z-index: 3;
+
+}
+
+
+
+#titulo_regis {
+
+ 
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin-left: 10vw;
+  max-height: 16%;
+  height: auto;
+  display: flex;
+}
+
+
+
+#frase4 {
+
+  position: absolute;
+  display: flex;
+   left: 42vw;
+     top: 2.4vh;
+     z-index: 5;
+
+}
+
+#circulo-rojo4 {
+  position: absolute;
+  display: flex;
+  z-index: 3;
+     width: 2.2vh;
+     height: 2.2vh;
+     left: 40.5vw;
+     top: 10.3vh;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: red;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
+/*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
+/*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
+
+
+
+
+@media (max-width:360px){
+
+   .titulos_video{
+
+    font-size: 6vh;
+  }
+
+
+  }
+
+
+
+@media (max-width:700px) and (min-width: 361px){
+
+   .titulos_video{
+
+    font-size: 8vh;
+  }
+
+   #titulo_afi {
+
+    top: 4%;
+    left: 5%;
+  }
+
+    
+
+}
+
+@media (max-width:1200px) and (min-width: 701px){
+
+  .titulos_video{
+
+    font-size: 10vh;
+
+  }
+
+  #titulo_afi {
+
+    top: 2%;
+    left: 6%;
+  }
+
+  
+
+
+}
+
 
 
 
