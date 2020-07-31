@@ -853,7 +853,7 @@ input, textarea {
     
     top: 20vh;
     left: 2vw;
-    background: #db4a39;
+    background: #d95434;
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0,0,20,.4);
     text-decoration: none;
@@ -891,10 +891,11 @@ input, textarea {
 	width: 300px;
 	position: absolute;
 	left: -1vh;
-	top: -2.5rem;
+	top: -2.25rem;
 	z-index: 110;
 	text-decoration: none;
 	font-weight: bold;
+
 
   font-size: 2.3vh;
 
@@ -920,10 +921,10 @@ input, textarea {
 #google_plus {
 
 position: relative;
-top: 10px;
+top: 0.8rem;
 left: 0;
-width: 13%;
-height: 13%;
+width: 11.5%;
+height: 11.5%;
 
 
 }
