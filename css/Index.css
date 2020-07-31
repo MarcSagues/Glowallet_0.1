@@ -861,7 +861,7 @@ input, textarea {
     text-decoration: none;
     position: absolute;
     border-radius: 5px;
-    width: 25vw;
+    width: 19rem;
     height: 2.3rem;
 }
    
@@ -874,14 +874,17 @@ input, textarea {
 	height: 2.3rem;
 	width: 19rem;
 	position: absolute;
-	left: -1vw;
-	top: -1.2rem;
+
+right: 50%;
 	z-index: 100;
 	text-decoration: none;
 	font-weight: bold;
 
 
   font-size: 2.3vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #google-label {
@@ -890,10 +893,10 @@ input, textarea {
 	height: auto;
 	
 	
-	width: 17rem;
+	width: 19rem;
 	position: absolute;
 	left: 0rem;
-	top: -2.1rem;
+	top:0rem;
 	z-index: 110;
 	text-decoration: none;
 	font-weight: bold;
@@ -971,7 +974,7 @@ textarea {
 .field-wrap {
   position: absolute;
   width: 100%;
-  margin-bottom: 40px;
+  
   height: auto;  }
 
 .top-row:after {
