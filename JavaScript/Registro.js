@@ -42,13 +42,13 @@ $('.tab a').on('click', function (e) {
  
 
   if($(this).attr('id') == 'tab_login'){
-    document.getElementById('form-content').style.height = '40vh';
+    document.getElementById('form-content').style.height = '50vh';
   } else {
-    document.getElementById('form-content').style.height = '60vh';
+    document.getElementById('form-content').style.height = '67vh';
   }
 
   if ($(this).attr('id') == 'tab_login') {
-    document.getElementById('form-content').style.height = '40vh';
+    document.getElementById('form-content').style.height = '50vh';
     document.getElementById('checkbox').style.visibility = 'hidden';
     document.getElementById('frase_checkbox').style.visibility = 'hidden';
 
@@ -56,7 +56,7 @@ $('.tab a').on('click', function (e) {
 
   } else {
 
-    document.getElementById('form-content').style.height = '60vh';
+    document.getElementById('form-content').style.height = '67vh';
     document.getElementById('checkbox').style.visibility = 'visible';
     document.getElementById('frase_checkbox').style.visibility = 'visible';
   }
