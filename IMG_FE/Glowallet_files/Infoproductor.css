@@ -1,0 +1,47 @@
+
+
+#video2 {
+
+position: absolute;
+	
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    top: 400vh;
+}
+
+#pantalla_completa2 {
+	
+	left: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 600vh;
+}
+
+
+
+#boton2 {
+
+	
+	width: auto;
+	outline: none;
+	border-width: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+
+#play2 {
+
+	position: relative;
+	width: 80px;
+	height: 80px;
+	top: 100vh;
+	bottom: 45%;
+	left: 47%;
+	right: 47%;
+
+}
+
