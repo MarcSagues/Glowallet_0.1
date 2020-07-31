@@ -115,8 +115,8 @@ vertical-align: top;
 	z-index: 2;
 	top: 0;
 	margin-left: 10vw;
-  max-height: 16%;
-  height: auto;
+  
+  height: 16vh;
   display: flex;
 
 
