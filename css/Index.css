@@ -885,10 +885,10 @@ input, textarea {
 	height: auto;
 	
 	
-	width: 300px;
+	width: auto;
 	position: absolute;
 	left: -1vh;
-	top: -6vh;
+	top: -5vh;
 	z-index: 110;
 	text-decoration: none;
 	font-weight: bold;
