@@ -1,0 +1,57 @@
+@font-face{
+	font-family: Titulos;
+	src: url("../fonts/Coco Gothic Bold-trial.ttf");
+	
+}
+
+
+
+#video1_mer {
+	display: inline-block;
+
+position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+
+
+
+
+#boton_mer {
+
+	
+	width: auto;
+	outline: none;
+	border-width: 0;
+	background-color: transparent;
+	cursor: pointer;
+	
+}
+
+
+
+#play_mer {
+
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 45%;
+	bottom: 45%;
+	left: 47%;
+	right: 47%;
+
+}
+
+#Mercado {
+
+	position: absolute;
+	color: #fafafa;
+	z-index: 40;
+	font-family: "Titulos";
+	font-size: 80px;
+}
