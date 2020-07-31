@@ -35,7 +35,7 @@ html, body {
 
 
 
-a:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor):not(.connect) {
+a:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor):not(.connect):not(.connect2){
 
 	font-size: 100%;
 	color: white;
@@ -44,7 +44,7 @@ a:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor):not(.co
 	font-weight: bold;
 
 }
-a:hover:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor):not(.connect){
+a:hover:not(.tab-a):not(#politicas):not(#terminos):not(.botones):not(#whatfor):not(.connect):not(.connect2){
 
 
 	color: #40C5DF;
@@ -836,7 +836,7 @@ input, textarea {
    #facebook {
 
     
-    top: 13vh;
+    top: 14vh;
     left: 2vw;
     background: #3A5A97;
     color: #fff;
@@ -847,12 +847,23 @@ input, textarea {
     width: 25vw;
     height: 5vh;
 }
+
+#google {
+
+    
+    top: 20vh;
+    left: 2vw;
+    background: #db4a39;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,20,.4);
+    text-decoration: none;
+    position: absolute;
+    border-radius: 5px;
+    width: 25vw;
+    height: 5vh;
+}
    
-
-
-
-
-   
+  
 #facebook-label {
 	
 	color: white;
@@ -871,6 +882,25 @@ input, textarea {
   font-size: 2.3vh;
 }
 
+#google-label {
+	
+	color: white;
+	height: auto;
+	
+	
+	width: auto;
+	position: absolute;
+	left: 0vw;
+	top: -2.5vh;
+	z-index: 100;
+	text-decoration: none;
+	font-weight: bold;
+
+
+  font-size: 2.3vh;
+}
+
+
 .connect:before {
     display: inline-block;
     position: relative;
@@ -878,6 +908,23 @@ input, textarea {
     height: 23px;
     background-repeat: no-repeat;
   
+    text-indent: -9999px;
+    text-align: center;
+    width: 30px;
+    line-height: 23px;
+    
+    padding: 2 25px 0 0;
+    content: "f";
+}
+
+
+.connect2:before {
+    display: inline-block;
+    position: relative;
+    background-image: url('IMG_FE/google_plus.png');
+    height: 23px;
+    background-repeat: no-repeat;
+  	z-index: 100;
     text-indent: -9999px;
     text-align: center;
     width: 30px;
