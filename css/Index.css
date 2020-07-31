@@ -845,7 +845,7 @@ input, textarea {
     position: absolute;
     border-radius: 5px;
     width: 25vw;
-    height: 5vh;
+    height: 2.3rem;
 }
 
 #google {
@@ -860,7 +860,7 @@ input, textarea {
     position: absolute;
     border-radius: 5px;
     width: 25vw;
-    height: 5vh;
+    height: 2.3rem;
 }
    
   
@@ -921,7 +921,7 @@ input, textarea {
 #google_plus {
 
 position: relative;
-top: 0.6rem;
+top: 0.7rem;
 left: 0;
 width: 2rem;
 height: 2rem%;
