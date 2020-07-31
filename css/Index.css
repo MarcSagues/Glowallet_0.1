@@ -888,17 +888,17 @@ input, textarea {
 	height: auto;
 	
 	
-	width: auto;
+	width: 300px;
 	position: absolute;
-	left: 0vw;
-	top: -2.5vh;
-	z-index: 100;
+	left: -1vh;
+	top: -6vh;
+	z-index: 110;
 	text-decoration: none;
 	font-weight: bold;
 
-
   font-size: 2.3vh;
-}
+
+  }
 
 
 .connect:before {
@@ -917,41 +917,20 @@ input, textarea {
     content: "f";
 }
 
+#google_plus {
 
-.connect2:before {
-    display: inline-block;
-    position: relative;
-    background-image: url('IMG_FE/google_plus.png');
-    height: 23px;
-    background-repeat: no-repeat;
-  	z-index: 100;
-    text-indent: -9999px;
-    text-align: center;
-    width: 30px;
-    line-height: 23px;
-    
-    padding: 2 25px 0 0;
-    content: "f";
+position: relative;
+top: 10px;
+left: 0;
+width: 13%;
+height: 13%;
+
+
 }
 
 
-    #tta {
-   	position: absolute;
-   	width: 95%;
-   	top: 35%;
-   	left: 10%;
 
-   }
-
-   #tt {
-
-   	position: absolute;
-   	width: 95%;
-   	top: 55%;
-   	left: 10%;
-
-   }
-
+  
 
  	#checkbox {
 
