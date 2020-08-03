@@ -366,18 +366,16 @@ function funcionMenu(){
 }
 
 function setNone() {
-  $('#menu_principal').click(function(){return false;});
   $('#pantalla_completa').click(function(){return false;});
   $('#pantalla_completa2').click(function(){return false;});
   $('#pantalla_completa3').click(function(){return false;});
   $('#form').click(function(){return false;});
 }
 function setBlock() {
-$('#menu_principal').click(function(){return true;});
   $('#pantalla_completa').click(function(){return true;});
   $('#pantalla_completa2').click(function(){return true;});
   $('#pantalla_completa3').click(function(){return true;});
-  $('#form').click(function(){return true;});
+   $('#form').click(function(){return true;});
 }
 
 
