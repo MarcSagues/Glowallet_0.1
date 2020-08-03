@@ -830,6 +830,21 @@ input, textarea {
    	
    }
 
+   #iniciar-sesion {
+	position: absolute;
+	width: 95%;
+	top: 53%;
+	left: 10%;
+}
+
+#iniciar-password {
+	position: absolute;
+	width: 95%;
+	top: 64%;
+	left: 10%;
+}
+
+
    #facebook {
 
     
@@ -885,10 +900,10 @@ input, textarea {
 	height: auto;
 	
 	
-	width: 300px;
+	width: auto;
 	position: absolute;
 	left: -1vh;
-	top: -6vh;
+	top: -5vh;
 	z-index: 110;
 	text-decoration: none;
 	font-weight: bold;
@@ -1064,7 +1079,7 @@ left: 4.5vw;
  	opacity: 1;
  }
 
-<<<<<<< HEAD
+
 .loader {
     position: fixed;
     left: 0px;
@@ -1075,10 +1090,8 @@ left: 4.5vw;
     background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
     opacity: .8;
 }
-=======
 
 
->>>>>>> 3d9ac7e35f1e5958da7761cf5014ec080c166439
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
 /*------------------------------------------------- MEDIA QUERIS ---------------------------------------------------------------*/
