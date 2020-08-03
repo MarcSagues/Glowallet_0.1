@@ -114,7 +114,7 @@ vertical-align: top;
 	position: absolute;
 	z-index: 2;
 	top: 0;
-	margin-left: 10vw;
+	left: 10vw;
   
   height: 16vh;
   display: flex;
