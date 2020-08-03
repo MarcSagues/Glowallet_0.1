@@ -10,6 +10,7 @@ function obrirTancarMenu(){
   if(!document.getElementById('navbar').checked){
 
     document.getElementById('test1').style.display = 'none';
+    setBlock();
     
   
   } else  {
@@ -17,9 +18,11 @@ function obrirTancarMenu(){
     
 
     document.getElementById('test1').style.display = 'block';
-    
+    setNone();
   }
 }
+
+
 
 
 var theLink = document.querySelectorAll(".photos");
@@ -335,7 +338,7 @@ function funcionMenu(){
 
 		document.getElementById("play_btn").style.visibility="hidden";
 
-		
+		setBlock();
 
 		$( "#test1" ).animate({
    			opacity: "0",
@@ -355,11 +358,24 @@ function funcionMenu(){
    			opacity: "1",
   		}, 700);
 		
-
+		setNone();
 		notSelected();
 
 		
 	}
+}
+
+function setNone() {
+  $('#pantalla_completa').click(function(){return false;});
+  $('#pantalla_completa2').click(function(){return false;});
+  $('#pantalla_completa3').click(function(){return false;});
+  $('#form').click(function(){return false;});
+}
+function setBlock() {
+  $('#pantalla_completa').click(function(){return true;});
+  $('#pantalla_completa2').click(function(){return true;});
+  $('#pantalla_completa3').click(function(){return true;});
+   $('#form').click(function(){return true;});
 }
 
 
