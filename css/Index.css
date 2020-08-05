@@ -315,7 +315,7 @@ background-size: cover;
 	margin: 0 0 0 0;
 	width: 10vw;
 	top: 15vh;
-	left: -100%;
+	left: -4.1vw;
 
 }
 
@@ -327,10 +327,9 @@ background-size: cover;
 	
 	align-items: center;
 	top: 25%;
-	right: 4.5%;
-	height: 4%;
-	max-height: 4%;
-	width:4%;
+	right: 8%;
+	height: 30px;
+	width:1px;
 	z-index: 3;
 }
 
@@ -891,7 +890,7 @@ input, textarea {
 	height: 5vh;
 	
 	
-	width: 25vw;
+	width: 120%;
 	position: absolute;
 	left: -5px;
 	top: -20px;
@@ -909,7 +908,7 @@ input, textarea {
 	height: 5vh;
 	
 	
-	width: 25vw;
+	width: 120%;
 	position: absolute;
 	left: -5px;
 	top: -30px;
@@ -1159,7 +1158,11 @@ left: 4.5vw;
 
 	}
 	
+#form-content {
 
+		left: 30%;
+
+	}
 
 
 	#entrar_registrarse{
@@ -1208,6 +1211,12 @@ left: 4.5vw;
 	#logo {
 
 		top: 2%;
+	}
+
+	#form-content {
+
+		left: 30%;
+
 	}
 
 	
