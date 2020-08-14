@@ -45,7 +45,7 @@
 .titulos_video {
 
 	font-family: "titulos_video";
-	font-size: 6vw;
+	font-size: 80px;
 	color: white;
 	
   margin: 0 0 0 0;
@@ -113,10 +113,10 @@ vertical-align: top;
 
 	position: absolute;
 	z-index: 2;
-	top: 0;
-	left: 10vw;
+	top: 38px;
+	left: 135px;
   
-  height: 16vh;
+  height: 40px;
   display: flex;
 
 
@@ -126,8 +126,8 @@ vertical-align: top;
 
 	position: absolute;
 	display: flex;
-	 left: 32.5vw;
-     top: 2.6vh;
+	 left: 435px;
+     top: 15.75px;
      z-index: 5;
 
 }
@@ -135,10 +135,10 @@ vertical-align: top;
 	position: absolute;
 	display: flex;
 	z-index: 3;
-     width: 1vw;
-     height: 1vw;
-     left: 31vw;
-     top: 10.8vh;
+     width:14px;
+     height: 14px;
+     left: 416px;
+     top: 74px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
@@ -203,13 +203,14 @@ vertical-align: top;
   #titulo_info {
 
  
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  margin-left: 10vw;
-  max-height: 16%;
-  height: auto;
+position: absolute;
+	z-index: 2;
+	top: 38px;
+	left: 135px;
+  
+  height: 40px;
   display: flex;
+
 }
 
 
@@ -218,8 +219,8 @@ vertical-align: top;
 
 	position: absolute;
 	display: flex;
-	 left: 52vw;
-     top: 2.4vh;
+	 left: 659px;
+     top: 15.75px;
      z-index: 5;
 
 }
@@ -228,15 +229,15 @@ vertical-align: top;
 	position: absolute;
 	display: flex;
 	z-index: 3;
-     width: 2.2vh;
-     height: 2.2vh;
-     left: 50.5vw;
-     top: 10.3vh;
+     width:14px;
+     height: 14px;
+     left: 640px;
+     top: 74px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: red;
-     z-index: 3;
+          z-index: 3;
 }
 
 
@@ -294,20 +295,21 @@ width: 100vw;
 
  
   position: absolute;
-  z-index: 2;
-  top: 0;
-  margin-left: 10vw;
-  max-height: 16%;
-  height: auto;
+	z-index: 2;
+	top: 38px;
+	left: 135px;
+  
+  height: 40px;
   display: flex;
+
 }
 
 #frase3 {
 
 	position: absolute;
 	display: flex;
-	 left: 37.4vw;
-     top: 2.4vh;
+	 left: 489px;
+     top: 15.75px;
      z-index: 5;
 
 }
@@ -315,16 +317,15 @@ width: 100vw;
 	position: absolute;
 	display: flex;
 	z-index: 3;
-     width: 2.2vh;
-     height: 2.2vh;
-     left: 35.8vw;
-     top: 10.3vh;
+     width:14px;
+     height: 14px;
+     left: 470px;
+     top: 74px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: red;
           z-index: 3;
-
 }
 
 
@@ -333,38 +334,40 @@ width: 100vw;
 
  
   position: absolute;
-  z-index: 2;
-  top: 0;
-  margin-left: 10vw;
-  max-height: 16%;
-  height: auto;
+	z-index: 2;
+	top: 38px;
+	left: 135px;
+  
+  height: 40px;
   display: flex;
+
 }
 
 
 
 #frase4 {
 
-  position: absolute;
-  display: flex;
-   left: 42vw;
-     top: 2.4vh;
+ 	position: absolute;
+	display: flex;
+	 left: 559px;
+     top: 15.75px;
      z-index: 5;
 
 }
 
 #circulo-rojo4 {
   position: absolute;
-  display: flex;
-  z-index: 3;
-     width: 2.2vh;
-     height: 2.2vh;
-     left: 40.5vw;
-     top: 10.3vh;
+	display: flex;
+	z-index: 3;
+     width:14px;
+     height: 14px;
+     left: 540px;
+     top: 74px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: red;
+          z-index: 3;
 }
 
 

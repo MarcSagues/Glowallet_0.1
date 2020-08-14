@@ -838,16 +838,16 @@ input, textarea {
 
    #iniciar-sesion {
 	position: absolute;
-	width: 95%;
+	width: 100%;
 	top: 53%;
-	left: 10%;
+	left: 6%;
 }
 
 #iniciar-password {
 	position: absolute;
-	width: 95%;
+	width: 100%;
 	top: 64%;
-	left: 10%;
+	left: 6%;
 }
 
 
@@ -871,6 +871,38 @@ input, textarea {
 
     
     top: 28%;
+    left: 6%;
+    background: #d95434;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,20,.4);
+    text-decoration: none;
+    position: absolute;
+    border-radius: 10px;
+    width:80%;
+  height: 20px;
+  padding: 5px 10px;
+}
+
+   #facebook_inicio {
+
+    
+    top: 24%;
+    left: 6%;
+    background: #485a96;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,20,.4);
+    text-decoration: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 80%;
+    height: 20px;
+  padding: 5px 10px;
+}
+
+#google_inicio {
+
+    
+    top: 35%;
     left: 6%;
     background: #d95434;
     color: #fff;
@@ -1035,7 +1067,24 @@ textarea {
   text-align: right; }
 
 
-
+.button2 {
+  position: absolute;
+  top: 81%;
+  left: 10%;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 10px 0;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #ff6666;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-appearance: none; }
+  .button2:hover, .button2:focus {
+    background: #ff4d4d; }
 
 
 
