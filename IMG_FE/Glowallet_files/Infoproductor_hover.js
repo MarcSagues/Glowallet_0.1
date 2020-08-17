@@ -1,6 +1,6 @@
 
 /*---------------------- ON PAGE LOAD ------------------------*/
-
+alert("hola");
 
 window.onload= obrirTancarMenu();
 

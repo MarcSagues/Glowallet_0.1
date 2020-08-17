@@ -1,7 +1,6 @@
 
 /*---------------------- ON PAGE LOAD ------------------------*/
 
-
 window.onload= obrirTancarMenu();
 
 function obrirTancarMenu(){
@@ -10,7 +9,6 @@ function obrirTancarMenu(){
   if(!document.getElementById('navbar').checked){
 
     document.getElementById('test1').style.display = 'none';
-    setBlock();
     
   
   } else  {
@@ -18,11 +16,9 @@ function obrirTancarMenu(){
     
 
     document.getElementById('test1').style.display = 'block';
-    setNone();
+    
   }
 }
-
-
 
 
 var theLink = document.querySelectorAll(".photos");
@@ -63,7 +59,7 @@ function mouseOut2() {
 	var barra3 = document.getElementById("barra3");
 	barra3.style.visibility= "visible";
 
-	$('#play_btn').addClass('play_back');
+	
 
 }
 
@@ -71,6 +67,7 @@ function mouseOut2() {
 
 
 function mouseOver() {
+	
 
 	var play = document.getElementById("play_btn");
 	var play2 = document.getElementById("play_btn2");
@@ -114,15 +111,15 @@ function mouseOver() {
 	imgs.style.visibility = "visible";
 
   $( "#foto1" ).animate({
-    top: "-10vh",
+    top: "24vh",
 
   }, 700 );
   $( "#foto2" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto3" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#play_btn" ).animate({
@@ -188,14 +185,16 @@ function mouseOver1() {
 	imgs.style.visibility = "visible";
 
 $( "#foto2" ).animate({
-    top: "-10vh",
+
+    top: "24vh",
   }, 700 );
+
   $( "#foto1" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto3" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
  $( "#play_btn2" ).animate({
@@ -253,14 +252,14 @@ function mouseOver2() {
 	var imgs = document.getElementsByTagName("img")[2];
 	imgs.style.visibility = "visible";
 	$( "#foto3" ).animate({
-    top: "-10vh",
+    top: "24vh",
   }, 700 );
   $( "#foto2" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto1" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
    $( "#play_btn3" ).animate({
@@ -338,7 +337,7 @@ function funcionMenu(){
 
 		document.getElementById("play_btn").style.visibility="hidden";
 
-		setBlock();
+		
 
 		$( "#test1" ).animate({
    			opacity: "0",
@@ -358,24 +357,11 @@ function funcionMenu(){
    			opacity: "1",
   		}, 700);
 		
-		setNone();
+
 		notSelected();
 
 		
 	}
-}
-
-function setNone() {
-  $('#pantalla_completa').click(function(){return false;});
-  $('#pantalla_completa2').click(function(){return false;});
-  $('#pantalla_completa3').click(function(){return false;});
-  $('#form').click(function(){return false;});
-}
-function setBlock() {
-  $('#pantalla_completa').click(function(){return true;});
-  $('#pantalla_completa2').click(function(){return true;});
-  $('#pantalla_completa3').click(function(){return true;});
-   $('#form').click(function(){return true;});
 }
 
 
@@ -426,15 +412,15 @@ function notSelected(){
 	imgs.style.visibility = "hidden";
 
   $( "#foto1" ).animate({
-    top: "10vh",
+    top: "50vh",
 
   }, 1 );
   $( "#foto2" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto3" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#play_btn" ).animate({
@@ -455,8 +441,3 @@ function notSelected(){
 
 
 }
-
-
-
-
-
