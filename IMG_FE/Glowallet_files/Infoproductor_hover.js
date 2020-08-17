@@ -68,6 +68,7 @@ function mouseOut2() {
 
 
 function mouseOver() {
+	alert("30 foto2");
 
 	var play = document.getElementById("play_btn");
 	var play2 = document.getElementById("play_btn2");
@@ -111,15 +112,15 @@ function mouseOver() {
 	imgs.style.visibility = "visible";
 
   $( "#foto1" ).animate({
-    top: "-10vh",
+    top: "30vh",
 
   }, 700 );
   $( "#foto2" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto3" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#play_btn" ).animate({
@@ -185,14 +186,16 @@ function mouseOver1() {
 	imgs.style.visibility = "visible";
 
 $( "#foto2" ).animate({
-    top: "-10vh",
+
+    top: "30vh",
   }, 700 );
+
   $( "#foto1" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto3" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
  $( "#play_btn2" ).animate({
@@ -250,14 +253,14 @@ function mouseOver2() {
 	var imgs = document.getElementsByTagName("img")[2];
 	imgs.style.visibility = "visible";
 	$( "#foto3" ).animate({
-    top: "-10vh",
+    top: "30vh",
   }, 700 );
   $( "#foto2" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto1" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
    $( "#play_btn3" ).animate({
@@ -410,15 +413,15 @@ function notSelected(){
 	imgs.style.visibility = "hidden";
 
   $( "#foto1" ).animate({
-    top: "10vh",
+    top: "50vh",
 
   }, 1 );
   $( "#foto2" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#foto3" ).animate({
-    top: "10vh",
+    top: "50vh",
     visibility: "hidden",
   }, 1 );
   $( "#play_btn" ).animate({
