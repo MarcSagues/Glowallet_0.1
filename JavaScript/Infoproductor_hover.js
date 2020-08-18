@@ -327,6 +327,12 @@ function hideImage(){
 function funcionMenu(){
 	
 
+	var video = document.getElementById("video1");
+	var video2 = document.getElementById("video2");
+	var video3 = document.getElementById("video3");
+	video.pause();	
+	video2.pause();
+	video3.pause();
 
 	if(document.getElementById('navbar').checked){
 

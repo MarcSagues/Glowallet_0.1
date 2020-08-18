@@ -1008,18 +1008,38 @@ margin-right: 7px;
  	#frase_checkbox {
 
  	position: absolute;
- 	top: 75.45%;
+ 	top: 75.15%;
  	left: 13%;
  	max-width: 80%;
  	width: auto;
- 
- 	font-size: 13px;
+ 	font-family: 'Titulos';
+ 	font-size: 15px;
+ 	color: #6E6B6B;
  	
-
-
 
  	}
 
+ #terminos {
+
+ 	color: #ff6666;
+ 	text-decoration: none;
+ }
+
+ #politicas {
+
+ 	color: #ff6666;
+ 	text-decoration: none;
+ }
+ #terminos:hover {
+
+ 	color: red;
+ 	text-decoration: none;
+ }
+#politicas:hover {
+
+ 	color: red;
+ 	text-decoration: none;
+ }
 
 textarea {
   border: 2px solid #a0b3b0;
@@ -1187,6 +1207,11 @@ left: 4.5vw;
 
 		visibility: hidden;
 	}
+	 .titulos_video{
+
+    font-size: 6vh;
+  }
+
 	
 }
 
@@ -1245,6 +1270,27 @@ left: 4.5vw;
 		visibility: hidden;
 	}
 
+  .titulos_video{
+
+    font-size: 8vh;
+  }
+
+   #titulo_afi {
+
+    top: 4%;
+    left: 5%;
+  }
+  #titulo_info {
+
+    top: 4%;
+    left: 5%;
+  }
+  #titulo_merca {
+
+    top: 4%;
+    left: 5%;
+  }
+
 
 	
 
@@ -1274,7 +1320,29 @@ left: 4.5vw;
 		left: 30%;
 
 	}
+  .titulos_video{
 
+    font-size: 10vh;
+
+  }
+
+  #titulo_afi {
+
+    top: 2%;
+    left: 6%;
+  }
+
+  #titulo_info {
+
+    top: 2%;
+    left: 6%;
+  }
+
+  #titulo_merca {
+
+    top: 2%;
+    left: 6%;
+  }
 	
 
 }
